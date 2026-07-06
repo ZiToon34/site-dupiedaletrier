@@ -32,7 +32,9 @@
 
 <!-- HERO -->
 <section class="hero">
-    <div class="hero-bg" id="hero-bg" style="background-image:url('images/balade-1.jpg')"></div>
+    <video class="hero-bg" id="hero-video" autoplay muted playsinline poster="images/balade-1.jpg">
+        <source src="images/hero.mp4" type="video/mp4">
+    </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <p class="hero-badge" id="hero-badge">Causse de Blandas — Gard</p>
@@ -189,8 +191,6 @@ document.addEventListener('cms:ready', () => {
     set('hero-badge', getField(hero, 'badge'))
     set('hero-title', getField(hero, 'title'))
     set('hero-subtitle', getField(hero, 'subtitle'))
-    const heroPic = getField(hero, 'photo')
-    if (heroPic) setBg('hero-bg', heroPic)
 
     set('intro-title', getField(accueil, 'intro_title'))
     set('intro-text', getField(accueil, 'intro_text'))

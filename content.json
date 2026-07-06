@@ -1,0 +1,496 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "label": "Accueil — Bannière",
+      "fields": [
+        {
+          "id": "badge",
+          "label": "Badge (au-dessus du titre)",
+          "type": "text",
+          "value": "Causse de Blandas — Gard"
+        },
+        {
+          "id": "title",
+          "label": "Titre principal",
+          "type": "text",
+          "value": "Une aventure équestre au cœur de la nature"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Balades à cheval et en calèche, enseignement et maréchalerie sur les paysages du Cirque de Navacelles."
+        },
+        {
+          "id": "photo",
+          "label": "Photo de fond",
+          "type": "image",
+          "value": "balade-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "accueil",
+      "label": "Accueil — Contenu",
+      "fields": [
+        {
+          "id": "intro_title",
+          "label": "Titre bienvenue",
+          "type": "text",
+          "value": "Une passion transmise, un accueil chaleureux"
+        },
+        {
+          "id": "intro_text",
+          "label": "Texte bienvenue",
+          "type": "text",
+          "value": "Au départ du Quintanel, nous vous proposons une immersion au cœur de la nature du Causse de Blandas et du Cirque de Navacelles — Patrimoine mondial de l'UNESCO. Nos balades sont adaptées à tous, familles, amis, amoureux de la nature."
+        },
+        {
+          "id": "intro_photo",
+          "label": "Photo bienvenue",
+          "type": "image",
+          "value": "balade-6.jpg"
+        },
+        {
+          "id": "cta_title",
+          "label": "Titre bandeau contact",
+          "type": "text",
+          "value": "Prêt à vivre l'aventure ?"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Texte bandeau contact",
+          "type": "text",
+          "value": "Réservation obligatoire 48h avant. Contactez-nous pour plus d'informations."
+        }
+      ]
+    },
+    {
+      "id": "activites",
+      "label": "Page Activités",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Nos Activités"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Une entreprise polyvalente dans le domaine équestre au service des particuliers et des professionnels."
+        },
+        {
+          "id": "balade_title",
+          "label": "Carte Balade — Titre",
+          "type": "text",
+          "value": "Balade à cheval & calèche"
+        },
+        {
+          "id": "balade_text",
+          "label": "Carte Balade — Texte",
+          "type": "text",
+          "value": "Envie d'une évasion en pleine nature ? Nous vous proposons d'avril à octobre des balades à cheval ou en calèche ! Venez découvrir des paysages inscrits au Patrimoine mondial de l'UNESCO."
+        },
+        {
+          "id": "balade_photo",
+          "label": "Carte Balade — Photo",
+          "type": "image",
+          "value": "balade-1.jpg"
+        },
+        {
+          "id": "enseignement_title",
+          "label": "Carte Enseignement — Titre",
+          "type": "text",
+          "value": "Enseignement équestre"
+        },
+        {
+          "id": "enseignement_text",
+          "label": "Carte Enseignement — Texte",
+          "type": "text",
+          "value": "De l'équitation de loisir au perfectionnement en compétition. Un enseignement sur mesure adapté à chacun en fonction de vos envies et objectifs, dès 13 ans."
+        },
+        {
+          "id": "enseignement_photo",
+          "label": "Carte Enseignement — Photo",
+          "type": "image",
+          "value": "enseignement-1.jpg"
+        },
+        {
+          "id": "marechalerie_title",
+          "label": "Carte Maréchalerie — Titre",
+          "type": "text",
+          "value": "Maréchalerie"
+        },
+        {
+          "id": "marechalerie_text",
+          "label": "Carte Maréchalerie — Texte",
+          "type": "text",
+          "value": "Que vous soyez propriétaire particulier ou professionnel, nous intervenons auprès de tous les équidés (poneys, ânes et chevaux) en ferrage comme en parage, afin de contribuer à leur bien-être dans le respect."
+        },
+        {
+          "id": "marechalerie_photo",
+          "label": "Carte Maréchalerie — Photo",
+          "type": "image",
+          "value": "marechalerie-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "balade",
+      "label": "Page Balade",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Balade à cheval & calèche"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Envie d'une évasion en pleine nature ? Découvrez des paysages inscrits au Patrimoine mondial de l'UNESCO."
+        },
+        {
+          "id": "intro_title",
+          "label": "Titre intro",
+          "type": "text",
+          "value": "Une immersion au cœur de la nature"
+        },
+        {
+          "id": "intro_text",
+          "label": "Texte intro 1",
+          "type": "text",
+          "value": "Au départ du Quintanel, nous vous proposons une immersion au cœur de la nature du Causse de Blandas et du Cirque de Navacelles !"
+        },
+        {
+          "id": "intro_text2",
+          "label": "Texte intro 2",
+          "type": "text",
+          "value": "Nos balades sont adaptées à tous, familles, amis, amoureux — parfaites pour les passionnés de la nature. Petit groupe adapté à chaque niveau pour le plaisir de tous."
+        },
+        {
+          "id": "photo",
+          "label": "Photo principale",
+          "type": "image",
+          "value": "balade-6.jpg"
+        },
+        {
+          "id": "photos",
+          "label": "Galerie photos",
+          "type": "image-list",
+          "value": ["balade-1.jpg", "balade-3.jpg", "balade-4.jpg", "balade-5.jpg", "balade-6.jpg", "balade-2.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "enseignement",
+      "label": "Page Enseignement",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Enseignement équestre"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "De l'équitation de loisir au perfectionnement en compétition."
+        },
+        {
+          "id": "intro_title",
+          "label": "Titre intro",
+          "type": "text",
+          "value": "Un enseignement sur mesure"
+        },
+        {
+          "id": "intro_text",
+          "label": "Texte intro 1",
+          "type": "text",
+          "value": "Les cours d'équitation sont proposés aux cavaliers, débutants ou confirmés à partir de 13 ans. Un enseignement collectif ou individuel adapté à leur niveau leur permettant de progresser et se faire plaisir en carrière comme en extérieur."
+        },
+        {
+          "id": "intro_text2",
+          "label": "Texte intro 2",
+          "type": "text",
+          "value": "Dans une ambiance conviviale et chaleureuse, les cavaliers pourront découvrir ou perfectionner leur équitation et s'ils le souhaitent passer leurs examens fédéraux (Galop 1 au Galop 7) avec une cavalerie adaptée à chacun."
+        },
+        {
+          "id": "intro_text3",
+          "label": "Texte intro 3",
+          "type": "text",
+          "value": "Pour les cavaliers en quête de sensations fortes et d'objectifs sportifs, des compétitions sont proposées tout au long de l'année."
+        },
+        {
+          "id": "photo",
+          "label": "Photo principale",
+          "type": "image",
+          "value": "enseignement-4.jpg"
+        },
+        {
+          "id": "photos",
+          "label": "Galerie photos",
+          "type": "image-list",
+          "value": ["enseignement-1.jpg", "enseignement-2.jpg", "enseignement-3.jpg", "enseignement-4.jpg", "enseignement-5.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "marechalerie",
+      "label": "Page Maréchalerie",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Maréchalerie"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Ferrage et parage de tous équidés, dans le respect et pour leur bien-être."
+        },
+        {
+          "id": "intro_title",
+          "label": "Titre intro",
+          "type": "text",
+          "value": "Un savoir-faire artisanal"
+        },
+        {
+          "id": "intro_text",
+          "label": "Texte intro 1",
+          "type": "text",
+          "value": "Que vous soyez propriétaire particulier ou professionnel, nous intervenons auprès de tous les équidés (poneys, ânes et chevaux) en ferrage comme en parage, afin de contribuer à leur bien-être dans le respect."
+        },
+        {
+          "id": "intro_text2",
+          "label": "Texte intro 2",
+          "type": "text",
+          "value": "Chaque intervention est adaptée à la morphologie et à l'activité de votre équidé, avec une attention particulière portée à la santé de ses pieds."
+        },
+        {
+          "id": "ferrage_text",
+          "label": "Carte Ferrage — Texte",
+          "type": "text",
+          "value": "Ferrage adapté à chaque équidé selon son activité : loisir, compétition, attelage. Travail à chaud pour un ajustage précis."
+        },
+        {
+          "id": "parage_text",
+          "label": "Carte Parage — Texte",
+          "type": "text",
+          "value": "Parage d'entretien pour les équidés pieds nus. Suivi régulier pour préserver l'équilibre et la santé du pied."
+        },
+        {
+          "id": "secteur_text",
+          "label": "Secteur d'intervention",
+          "type": "text",
+          "value": "Gard / Hérault / Sud Lozère / Sud Aveyron"
+        },
+        {
+          "id": "photo",
+          "label": "Photo principale",
+          "type": "image",
+          "value": "marechalerie-2.jpg"
+        },
+        {
+          "id": "photos",
+          "label": "Galerie photos",
+          "type": "image-list",
+          "value": ["marechalerie-1.jpg", "marechalerie-2.jpg"]
+        }
+      ]
+    },
+    {
+      "id": "infos",
+      "label": "Page Infos & Tarifs",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Infos & Tarifs"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Toutes les informations, tarifs et le planning de la saison."
+        },
+        {
+          "id": "planning1_title",
+          "label": "Planning 1 — Titre",
+          "type": "text",
+          "value": "☀️ Été 2026"
+        },
+        {
+          "id": "planning1_text",
+          "label": "Planning 1 — Texte",
+          "type": "text",
+          "value": "Des cours d'équitation et des balades à cheval sont proposés tout l'été sur réservation. Les cours seront proposés en semaine sur des horaires en fin de journée (18h - 20h30) afin de bénéficier de températures plus clémentes."
+        },
+        {
+          "id": "planning2_title",
+          "label": "Planning 2 — Titre",
+          "type": "text",
+          "value": "🍂 Rentrée scolaire 2026"
+        },
+        {
+          "id": "planning2_text",
+          "label": "Planning 2 — Texte",
+          "type": "text",
+          "value": "Les cours d'équitation débuteront pour la rentrée 2026 aux alentours de mi-septembre. Les inscriptions et adhésions peuvent dès à présent être prises."
+        },
+        {
+          "id": "planning3_title",
+          "label": "Planning 3 — Titre",
+          "type": "text",
+          "value": "🐴 Balades"
+        },
+        {
+          "id": "planning3_text",
+          "label": "Planning 3 — Texte",
+          "type": "text",
+          "value": "Les balades à cheval et en calèche sont proposées d'avril à octobre, sur réservation uniquement, 48h à l'avance."
+        }
+      ]
+    },
+    {
+      "id": "apropos",
+      "label": "Page À Propos",
+      "fields": [
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "À Propos"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Une passion, un métier, des valeurs."
+        },
+        {
+          "id": "intro_title",
+          "label": "Titre présentation",
+          "type": "text",
+          "value": "Une passion devenue métier"
+        },
+        {
+          "id": "text1",
+          "label": "Paragraphe 1",
+          "type": "text",
+          "value": "L'été est bientôt là et avec lui, un tout nouveau départ ! Avec ma cavalerie nous nous installons à l'année au Quintanel sur la structure de Cavalquinta. Nous sommes ravis de pouvoir vous proposer davantage d'activités équestres en plus de nos balades."
+        },
+        {
+          "id": "text2",
+          "label": "Paragraphe 2",
+          "type": "text",
+          "value": "Tout cela dans un cadre naturel protégé sur le Causse, au sein d'une structure de qualité."
+        },
+        {
+          "id": "text3",
+          "label": "Paragraphe 3",
+          "type": "text",
+          "value": "Maréchal-ferrant, enseignante, guide à cheval et meneuse d'attelage — je souhaite orienter mes activités et former des futurs cavaliers soucieux du bien-être du cheval en accord avec les valeurs qui m'animent : l'écoute, la bienveillance et la passion."
+        },
+        {
+          "id": "photo",
+          "label": "Photo de présentation",
+          "type": "image",
+          "value": "marechalerie-1.jpg"
+        },
+        {
+          "id": "valeur1_title",
+          "label": "Valeur 1 — Titre",
+          "type": "text",
+          "value": "L'écoute"
+        },
+        {
+          "id": "valeur1_text",
+          "label": "Valeur 1 — Texte",
+          "type": "text",
+          "value": "Chaque cavalier et chaque cheval est unique. Nous adaptons notre accompagnement à vos besoins et objectifs."
+        },
+        {
+          "id": "valeur2_title",
+          "label": "Valeur 2 — Titre",
+          "type": "text",
+          "value": "La bienveillance"
+        },
+        {
+          "id": "valeur2_text",
+          "label": "Valeur 2 — Texte",
+          "type": "text",
+          "value": "Une ambiance conviviale et chaleureuse, dans le respect du bien-être du cheval et du cavalier."
+        },
+        {
+          "id": "valeur3_title",
+          "label": "Valeur 3 — Titre",
+          "type": "text",
+          "value": "La passion"
+        },
+        {
+          "id": "valeur3_text",
+          "label": "Valeur 3 — Texte",
+          "type": "text",
+          "value": "Une passion transmise chaque jour, à travers l'enseignement, les balades et le soin apporté aux équidés."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "label": "Coordonnées",
+      "fields": [
+        {
+          "id": "phone",
+          "label": "Téléphone",
+          "type": "text",
+          "value": "06.16.38.02.43"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "text",
+          "value": "dupiedaletrier@gmail.com"
+        },
+        {
+          "id": "address",
+          "label": "Adresse",
+          "type": "text",
+          "value": "Le Quintanel, 30770 Blandas"
+        },
+        {
+          "id": "secteur",
+          "label": "Secteur maréchalerie",
+          "type": "text",
+          "value": "Gard / Hérault / Sud Lozère / Sud Aveyron"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Réseaux sociaux",
+      "fields": [
+        {
+          "id": "facebook",
+          "label": "Lien Facebook",
+          "type": "text",
+          "value": "#"
+        },
+        {
+          "id": "instagram",
+          "label": "Lien Instagram",
+          "type": "text",
+          "value": "#"
+        }
+      ]
+    }
+  ]
+}

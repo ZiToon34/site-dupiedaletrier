@@ -402,3 +402,10 @@ footer h4 { color: var(--beige-light); margin-bottom: 1rem; font-size: 0.78rem; 
     .gallery-strip-grid { grid-template-columns: repeat(2, 1fr); }
     .infos-grid { grid-template-columns: 1fr; }
 }
+
+/* HERO VIDEO */
+video.hero-bg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

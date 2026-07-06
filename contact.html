@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Du Pied à l'Étrier</title>
+    <meta name="description" content="Contactez Du Pied à l'Étrier : 06.16.38.02.43 — dupiedaletrier@gmail.com — Le Quintanel, 30770 Blandas.">
+    <link rel="icon" href="images/logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="nav-logo">
+            <img src="images/logo.jpg" alt="Du Pied à l'Étrier">
+            <span>Du Pied à l'Étrier</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="activites.html">Activités</a></li>
+            <li><a href="infos.html">Infos & Tarifs</a></li>
+            <li><a href="apropos.html">À Propos</a></li>
+            <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('images/balade-5.jpg')"></div>
+    <div class="container">
+        <span class="section-label">Nous joindre</span>
+        <h1 id="contact-title">Contact</h1>
+        <p id="contact-subtitle">Une question, une réservation ? Nous sommes à votre écoute.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-page">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- INFOS -->
+            <div class="contact-info">
+                <span class="section-label">Coordonnées</span>
+                <h2>Parlons de votre projet</h2>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📞</div>
+                    <div class="contact-item-text">
+                        <p>Téléphone</p>
+                        <p id="ci-phone">06.16.38.02.43</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">✉</div>
+                    <div class="contact-item-text">
+                        <p>Email</p>
+                        <p id="ci-email">dupiedaletrier@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div class="contact-item-text">
+                        <p>Adresse</p>
+                        <p id="ci-address">Le Quintanel, 30770 Blandas</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">🗺</div>
+                    <div class="contact-item-text">
+                        <p>Secteur maréchalerie</p>
+                        <p id="ci-secteur">Gard / Hérault / Sud Lozère / Sud Aveyron</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">🌐</div>
+                    <div class="contact-item-text">
+                        <p>Réseaux sociaux</p>
+                        <p>
+                            <a id="ci-facebook" href="#" target="_blank" rel="noopener" style="color:var(--brown);font-weight:700">Facebook</a>
+                            &nbsp;·&nbsp;
+                            <a id="ci-instagram" href="#" target="_blank" rel="noopener" style="color:var(--brown);font-weight:700">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FORMULAIRE -->
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p style="display:none"><input name="bot-field"></p>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nom">Prénom & Nom *</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Sujet</label>
+                        <select id="sujet" name="sujet">
+                            <option>Balade à cheval</option>
+                            <option>Balade en calèche</option>
+                            <option>Cours d'équitation</option>
+                            <option>Maréchalerie</option>
+                            <option>Inscription / adhésion</option>
+                            <option>Autre demande</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="Décrivez votre demande..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- CARTE -->
+        <div class="map-section">
+            <iframe
+                src="https://www.google.com/maps?q=Le+Quintanel+30770+Blandas&output=embed"
+                width="100%" height="380" style="border:0" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Carte Le Quintanel Blandas">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="images/logo.jpg" alt="Logo Du Pied à l'Étrier">
+                <p>Du Pied à l'Étrier<br>Le Quintanel, 30770 Blandas<br>Julie Silva Carvalho</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="activites.html">Activités</a></li>
+                    <li><a href="infos.html">Infos & Tarifs</a></li>
+                    <li><a href="apropos.html">À Propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p id="footer-phone">06.16.38.02.43</p>
+                <p id="footer-email">dupiedaletrier@gmail.com</p>
+                <div class="footer-social">
+                    <a id="footer-facebook" href="#" target="_blank" rel="noopener">Facebook</a>
+                    <a id="footer-instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Du Pied à l'Étrier — Julie Silva Carvalho</p>
+        </div>
+    </div>
+</footer>
+
+<script src="cms.js"></script>
+<script src="nav.js"></script>
+<script>
+document.addEventListener('cms:ready', () => {
+    const d = window.CMS_DATA
+    const contact = getSection(d, 'contact')
+    const social = getSection(d, 'social')
+
+    const phone = getField(contact, 'phone')
+    const email = getField(contact, 'email')
+    const address = getField(contact, 'address')
+    const secteur = getField(contact, 'secteur')
+
+    if (phone) { set('ci-phone', phone); set('footer-phone', phone) }
+    if (email) { set('ci-email', email); set('footer-email', email) }
+    if (address) set('ci-address', address)
+    if (secteur) set('ci-secteur', secteur)
+
+    const fb = getField(social, 'facebook')
+    const ig = getField(social, 'instagram')
+    setHref('ci-facebook', fb)
+    setHref('ci-instagram', ig)
+    setHref('footer-facebook', fb)
+    setHref('footer-instagram', ig)
+})
+</script>
+</body>
+</html>

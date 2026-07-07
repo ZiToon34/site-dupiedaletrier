@@ -413,3 +413,17 @@ video.hero-bg {
 }
 #hero-photo-bg { z-index: 0; }
 video.hero-bg.fade-out { opacity: 0; }
+
+/* CONTOUR NOIR SUR LES TEXTES HERO */
+.hero-content h1,
+.hero-content .hero-subtitle,
+.hero-content .hero-badge,
+.page-hero h1,
+.page-hero p {
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        0 0 8px rgba(0,0,0,0.5);
+}

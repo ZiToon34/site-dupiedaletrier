@@ -565,8 +565,10 @@ body.lightbox-open {
     padding: 64px 20px 40px;
 }
 .lightbox-img {
-    max-width: min(1100px, 92vw);
-    max-height: 78vh;
+    flex: 0 1 auto;
+    min-height: 0;
+    max-width: min(1100px, 100%);
+    max-height: 100%;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -588,8 +590,8 @@ body.lightbox-open {
 
 .lightbox-close {
     position: absolute;
-    top: 18px;
-    right: 20px;
+    top: calc(18px + env(safe-area-inset-top, 0px));
+    right: calc(20px + env(safe-area-inset-right, 0px));
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -628,11 +630,37 @@ body.lightbox-open {
 .lightbox-next { right: 16px; }
 
 @media (max-width: 768px) {
-    .lightbox-stage { padding: 60px 12px 32px; }
-    .lightbox-img { max-height: 72vh; max-width: 96vw; }
-    .lightbox-nav { width: 40px; height: 40px; font-size: 1.6rem; }
-    .lightbox-prev { left: 6px; }
-    .lightbox-next { right: 6px; }
+    /* pas de flou : plus fluide sur mobile d'entree de gamme */
+    .lightbox { -webkit-backdrop-filter: none; backdrop-filter: none; }
+    .lightbox-stage {
+        padding: calc(64px + env(safe-area-inset-top, 0px)) 12px
+                 calc(84px + env(safe-area-inset-bottom, 0px));
+    }
+    /* les fleches passent sous la photo pour ne pas la masquer */
+    .lightbox-nav {
+        width: 44px;
+        height: 44px;
+        font-size: 1.7rem;
+        top: auto;
+        bottom: calc(18px + env(safe-area-inset-bottom, 0px));
+        transform: none;
+    }
+    .lightbox-prev { left: calc(50% - 74px); }
+    .lightbox-next { left: calc(50% + 30px); right: auto; }
+}
+
+/* Telephone en paysage : on recupere de la hauteur */
+@media (max-width: 900px) and (orientation: landscape) {
+    .lightbox-stage { padding: 52px 64px 52px; gap: 8px; }
+    .lightbox-nav {
+        top: 50%;
+        bottom: auto;
+        transform: translateY(-50%);
+        width: 40px;
+        height: 40px;
+    }
+    .lightbox-prev { left: 8px; }
+    .lightbox-next { left: auto; right: 8px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

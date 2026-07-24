@@ -8,8 +8,8 @@
     --white: #FFFFFF;
     --text: #3A2A1A;
     --text-light: #7A6A5A;
-    --font-serif: 'Playfair Display', Georgia, serif;
-    --font-sans: 'Lato', sans-serif;
+    --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Lato', -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     --shadow: 0 4px 24px rgba(107,62,46,0.12);
     --shadow-lg: 0 12px 48px rgba(107,62,46,0.18);
     --radius: 12px;

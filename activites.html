@@ -34,7 +34,9 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap"></noscript>
     <link rel="stylesheet" href="style.css">
     <script type="application/ld+json">
 {
@@ -187,8 +189,8 @@
     </span>
     <span class="whatsapp-label">Écrivez-nous sur WhatsApp</span>
 </a>
-<script src="cms.js"></script>
-<script src="nav.js"></script>
+<script defer src="cms.js"></script>
+<script defer src="nav.js"></script>
 <script>
 document.addEventListener('cms:ready', () => {
     const d = window.CMS_DATA

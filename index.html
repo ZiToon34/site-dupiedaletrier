@@ -32,9 +32,11 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" as="image" href="images/hero-poster-mobile.jpg" media="(max-width: 768px)" fetchpriority="high">
+    <link rel="preload" as="image" href="images/hero-poster.jpg" media="(min-width: 769px)" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script type="application/ld+json">
 {
@@ -216,10 +218,8 @@
 
 <!-- HERO -->
 <section class="hero">
-    <div class="hero-bg" id="hero-photo-bg" style="background-image:url('images/balade-1.jpg')"></div>
-<video class="hero-bg" id="hero-video" autoplay muted playsinline preload="metadata" poster="images/balade-1.jpg" aria-hidden="true" tabindex="-1">
-    <source src="images/hero.mp4" type="video/mp4">
-</video>
+    <div class="hero-bg" id="hero-photo-bg"></div>
+<video class="hero-bg" id="hero-video" muted playsinline preload="none" data-src="images/hero.mp4" aria-hidden="true" tabindex="-1"></video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <p class="hero-badge" id="hero-badge">Causse de Blandas — Gard</p>
@@ -409,9 +409,20 @@ if (waPhone) {
 // Vidéo hero : bascule sur la photo à la fin
 const heroVideo = document.getElementById('hero-video')
 if (heroVideo) {
-    heroVideo.addEventListener('ended', () => {
-        heroVideo.classList.add('fade-out')
-    })
+    heroVideo.addEventListener('ended', () => heroVideo.classList.add('fade-out'))
+
+    const startVideo = () => {
+        const c = navigator.connection || {}
+        const slow = c.saveData === true || ['slow-2g', '2g', '3g'].includes(c.effectiveType)
+        if (slow) return                    // connexion lente : on garde la photo
+        heroVideo.src = heroVideo.dataset.src
+        const p = heroVideo.play()
+        if (p) p.catch(() => heroVideo.classList.add('fade-out'))
+    }
+
+    // la video ne se charge qu'une fois la page entierement affichee
+    if (document.readyState === 'complete') setTimeout(startVideo, 600)
+    else window.addEventListener('load', () => setTimeout(startVideo, 600))
 }
 </script>
 </body>

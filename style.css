@@ -509,3 +509,16 @@ video.hero-bg.fade-out { opacity: 0; }
         1px 1px 0 #000,
         0 0 8px rgba(0,0,0,0.5);
 }*/
+
+/* ===========================
+   PERFORMANCE - FOND DU HERO
+   Image legere sur mobile, plus grande sur ordinateur
+=========================== */
+#hero-photo-bg {
+    background-image: url('images/hero-poster-mobile.jpg');
+}
+@media (min-width: 769px) {
+    #hero-photo-bg {
+        background-image: url('images/hero-poster.jpg');
+    }
+}

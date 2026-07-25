@@ -482,13 +482,13 @@
           "id": "facebook",
           "label": "Lien Facebook",
           "type": "text",
-          "value": "#"
+          "value": "https://www.facebook.com/profile.php?id=100057482198207"
         },
         {
           "id": "instagram",
           "label": "Lien Instagram",
           "type": "text",
-          "value": "#"
+          "value": "https://www.instagram.com/du_pied_a_letrier/"
         }
       ]
     }

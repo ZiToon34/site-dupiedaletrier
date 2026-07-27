@@ -25,7 +25,8 @@ links.querySelectorAll('a').forEach(link => {
 })
 
 // Active link
-const currentPage = window.location.pathname.split('/').pop() || 'index.html'
+const file = window.location.pathname.split('/').pop()
+const currentPage = (file === '' || file === 'index.html') ? '/' : file
 links.querySelectorAll('a').forEach(link => {
     const href = link.getAttribute('href')
     if (href === currentPage) link.classList.add('active')

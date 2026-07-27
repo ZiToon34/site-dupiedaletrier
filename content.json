@@ -182,7 +182,14 @@
           "id": "photos",
           "label": "Galerie photos",
           "type": "image-list",
-          "value": ["balade-1.jpg", "balade-3.jpg", "balade-4.jpg", "balade-5.jpg", "balade-6.jpg", "balade-2.jpg"]
+          "value": [
+            "balade-1.jpg",
+            "balade-3.jpg",
+            "balade-4.jpg",
+            "balade-5.jpg",
+            "balade-6.jpg",
+            "balade-2.jpg"
+          ]
         }
       ]
     },
@@ -236,7 +243,13 @@
           "id": "photos",
           "label": "Galerie photos",
           "type": "image-list",
-          "value": ["enseignement-1.jpg", "enseignement-2.jpg", "enseignement-3.jpg", "enseignement-4.jpg", "enseignement-5.jpg"]
+          "value": [
+            "enseignement-1.jpg",
+            "enseignement-2.jpg",
+            "enseignement-3.jpg",
+            "enseignement-4.jpg",
+            "enseignement-5.jpg"
+          ]
         }
       ]
     },
@@ -302,7 +315,10 @@
           "id": "photos",
           "label": "Galerie photos",
           "type": "image-list",
-          "value": ["marechalerie-1.jpg", "marechalerie-2.jpg"]
+          "value": [
+            "marechalerie-1.jpg",
+            "marechalerie-2.jpg"
+          ]
         }
       ]
     },

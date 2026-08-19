@@ -236,7 +236,7 @@
 </section>
 
 <!-- INTRO -->
-<section class="intro">
+<section class="intro" data-cms="accueil">
     <div class="container">
         <div class="intro-grid">
             <div class="intro-text">
@@ -332,7 +332,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer>
+<footer data-cms="social">
     <div class="container">
         <div class="footer-grid">
             <div class="footer-brand">
@@ -427,5 +427,6 @@ if (heroVideo) {
     else window.addEventListener('load', () => setTimeout(startVideo, 600))
 }
 </script>
+<script defer src="cms-bridge.js"></script>
 </body>
 </html>

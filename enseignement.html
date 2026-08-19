@@ -144,8 +144,7 @@
 </section>
 
 <!-- INTRO -->
-<section class="activity-page">
-    <div class="container">
+<section class="activity-page" data-cms="enseignement">
         <div class="activity-intro">
             <img id="ens-photo" src="images/enseignement-4.jpg" alt="Séance de cours d'équitation encadrée" loading="lazy" decoding="async">
             <div class="activity-intro-text">
@@ -265,7 +264,7 @@
 </section>
 
 <!-- FOOTER -->
-<footer>
+<footer data-cms="social">
     <div class="container">
         <div class="footer-grid">
             <div class="footer-brand">
@@ -343,5 +342,6 @@ if (waPhone) {
     setHref('footer-instagram', getField(social, 'instagram'))
 })
 </script>
+<script defer src="cms-bridge.js"></script>
 </body>
 </html>

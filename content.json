@@ -6,7 +6,7 @@
       "fields": [
         {
           "id": "badge",
-          "label": "Badge (au-dessus du titre)",
+          "label": "Petit texte au-dessus du titre",
           "type": "text",
           "value": "Causse de Blandas — Gard"
         },
@@ -23,6 +23,18 @@
           "value": "Balades à cheval et en calèche, enseignement et maréchalerie sur les paysages du Cirque de Navacelles."
         },
         {
+          "id": "btn1",
+          "label": "Bouton 1",
+          "type": "text",
+          "value": "Découvrir nos activités"
+        },
+        {
+          "id": "btn2",
+          "label": "Bouton 2",
+          "type": "text",
+          "value": "Nous contacter"
+        },
+        {
           "id": "photo",
           "label": "Photo de fond",
           "type": "image",
@@ -34,6 +46,12 @@
       "id": "accueil",
       "label": "Accueil — Contenu",
       "fields": [
+        {
+          "id": "intro_eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Bienvenue"
+        },
         {
           "id": "intro_title",
           "label": "Titre bienvenue",
@@ -47,22 +65,119 @@
           "value": "Au départ du Quintanel, nous vous proposons une immersion au cœur de la nature du Causse de Blandas et du Cirque de Navacelles — Patrimoine mondial de l'UNESCO. Nos balades sont adaptées à tous, familles, amis, amoureux de la nature."
         },
         {
+          "id": "intro_btn",
+          "label": "Bouton",
+          "type": "text",
+          "value": "Notre histoire"
+        },
+        {
+          "id": "intro_badge",
+          "label": "Étiquette sur la photo",
+          "type": "text",
+          "value": "Monitrice Diplômée d'État"
+        },
+        {
           "id": "intro_photo",
           "label": "Photo bienvenue",
           "type": "image",
           "value": "balade-6.jpg"
         },
         {
+          "id": "cartes_eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Nos activités"
+        },
+        {
+          "id": "cartes_title",
+          "label": "Titre des activités",
+          "type": "text",
+          "value": "Ce que nous proposons"
+        },
+        {
+          "id": "carte1_title",
+          "label": "Carte 1 — Titre",
+          "type": "text",
+          "value": "Balade à cheval & calèche"
+        },
+        {
+          "id": "carte1_text",
+          "label": "Carte 1 — Texte",
+          "type": "text",
+          "value": "Découvrez le Causse et le Cirque de Navacelles. Pour tous niveaux, dès 10 ans."
+        },
+        {
+          "id": "carte1_photo",
+          "label": "Carte 1 — Photo",
+          "type": "image",
+          "value": "balade-2.jpg"
+        },
+        {
+          "id": "carte2_title",
+          "label": "Carte 2 — Titre",
+          "type": "text",
+          "value": "Enseignement équestre"
+        },
+        {
+          "id": "carte2_text",
+          "label": "Carte 2 — Texte",
+          "type": "text",
+          "value": "Cours particuliers, duo ou groupe. Galops fédéraux et coaching en compétition."
+        },
+        {
+          "id": "carte2_photo",
+          "label": "Carte 2 — Photo",
+          "type": "image",
+          "value": "enseignement-1.jpg"
+        },
+        {
+          "id": "carte3_title",
+          "label": "Carte 3 — Titre",
+          "type": "text",
+          "value": "Maréchalerie"
+        },
+        {
+          "id": "carte3_text",
+          "label": "Carte 3 — Texte",
+          "type": "text",
+          "value": "Ferrage professionnel de tous équidés chez les particuliers et en structure."
+        },
+        {
+          "id": "carte3_photo",
+          "label": "Carte 3 — Photo",
+          "type": "image",
+          "value": "marechalerie-1.jpg"
+        },
+        {
+          "id": "bandeau_photos",
+          "label": "Bandeau de photos (bas de page)",
+          "type": "image-list",
+          "value": [
+            "balade-3.jpg",
+            "balade-4.jpg",
+            "enseignement-2.jpg",
+            "balade-5.jpg",
+            "enseignement-3.jpg",
+            "marechalerie-2.jpg"
+          ]
+        },
+        {
           "id": "cta_title",
-          "label": "Titre bandeau contact",
+          "label": "Bandeau contact — Titre",
           "type": "text",
           "value": "Prêt à vivre l'aventure ?"
         },
         {
           "id": "cta_subtitle",
-          "label": "Texte bandeau contact",
+          "label": "Bandeau contact — Texte",
           "type": "text",
           "value": "Réservation obligatoire 48h avant. Contactez-nous pour plus d'informations."
+        },
+        {
+          "id": "cta_btn",
+          "label": "Bandeau contact — Bouton",
+          "type": "text",
+          "value": "Nous contacter"
         }
       ]
     },
@@ -83,58 +198,94 @@
           "value": "Une entreprise polyvalente dans le domaine équestre au service des particuliers et des professionnels."
         },
         {
+          "id": "balade_eyebrow",
+          "label": "Balade — Petit texte",
+          "type": "text",
+          "value": "Tourisme équestre & attelage"
+        },
+        {
           "id": "balade_title",
-          "label": "Carte Balade — Titre",
+          "label": "Balade — Titre",
           "type": "text",
           "value": "Balade à cheval & calèche"
         },
         {
           "id": "balade_text",
-          "label": "Carte Balade — Texte",
+          "label": "Balade — Texte",
           "type": "text",
           "value": "Envie d'une évasion en pleine nature ? Nous vous proposons d'avril à octobre des balades à cheval ou en calèche ! Venez découvrir des paysages inscrits au Patrimoine mondial de l'UNESCO."
         },
         {
           "id": "balade_photo",
-          "label": "Carte Balade — Photo",
+          "label": "Balade — Photo",
           "type": "image",
           "value": "balade-1.jpg"
         },
         {
+          "id": "enseignement_eyebrow",
+          "label": "Enseignement — Petit texte",
+          "type": "text",
+          "value": "Enseignement & travail du cheval"
+        },
+        {
           "id": "enseignement_title",
-          "label": "Carte Enseignement — Titre",
+          "label": "Enseignement — Titre",
           "type": "text",
           "value": "Enseignement équestre"
         },
         {
           "id": "enseignement_text",
-          "label": "Carte Enseignement — Texte",
+          "label": "Enseignement — Texte",
           "type": "text",
           "value": "De l'équitation de loisir au perfectionnement en compétition. Un enseignement sur mesure adapté à chacun en fonction de vos envies et objectifs, dès 13 ans."
         },
         {
           "id": "enseignement_photo",
-          "label": "Carte Enseignement — Photo",
+          "label": "Enseignement — Photo",
           "type": "image",
           "value": "enseignement-1.jpg"
         },
         {
+          "id": "marechalerie_eyebrow",
+          "label": "Maréchalerie — Petit texte",
+          "type": "text",
+          "value": "Maréchal-Ferrant"
+        },
+        {
           "id": "marechalerie_title",
-          "label": "Carte Maréchalerie — Titre",
+          "label": "Maréchalerie — Titre",
           "type": "text",
           "value": "Maréchalerie"
         },
         {
           "id": "marechalerie_text",
-          "label": "Carte Maréchalerie — Texte",
+          "label": "Maréchalerie — Texte",
           "type": "text",
           "value": "Que vous soyez propriétaire particulier ou professionnel, nous intervenons auprès de tous les équidés (poneys, ânes et chevaux) en ferrage comme en parage, afin de contribuer à leur bien-être dans le respect."
         },
         {
           "id": "marechalerie_photo",
-          "label": "Carte Maréchalerie — Photo",
+          "label": "Maréchalerie — Photo",
           "type": "image",
           "value": "marechalerie-1.jpg"
+        },
+        {
+          "id": "btn",
+          "label": "Texte des boutons",
+          "type": "text",
+          "value": "Découvrir"
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Une question sur nos activités ?"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Contactez-nous, nous serons ravis de vous renseigner."
         }
       ]
     },
@@ -142,6 +293,12 @@
       "id": "balade",
       "label": "Page Balade",
       "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Tourisme équestre & attelage"
+        },
         {
           "id": "title",
           "label": "Titre de la page",
@@ -155,28 +312,112 @@
           "value": "Envie d'une évasion en pleine nature ? Découvrez des paysages inscrits au Patrimoine mondial de l'UNESCO."
         },
         {
+          "id": "intro_eyebrow",
+          "label": "Intro — Petit texte",
+          "type": "text",
+          "value": "D'avril à octobre"
+        },
+        {
           "id": "intro_title",
-          "label": "Titre intro",
+          "label": "Intro — Titre",
           "type": "text",
           "value": "Une immersion au cœur de la nature"
         },
         {
           "id": "intro_text",
-          "label": "Texte intro 1",
+          "label": "Intro — Paragraphe 1",
           "type": "text",
           "value": "Au départ du Quintanel, nous vous proposons une immersion au cœur de la nature du Causse de Blandas et du Cirque de Navacelles !"
         },
         {
           "id": "intro_text2",
-          "label": "Texte intro 2",
+          "label": "Intro — Paragraphe 2",
           "type": "text",
           "value": "Nos balades sont adaptées à tous, familles, amis, amoureux — parfaites pour les passionnés de la nature. Petit groupe adapté à chaque niveau pour le plaisir de tous."
+        },
+        {
+          "id": "intro_note",
+          "label": "Intro — Note équipement",
+          "type": "text",
+          "value": "Équipement obligatoire pour la pratique : pantalon long, chaussures fermées."
         },
         {
           "id": "photo",
           "label": "Photo principale",
           "type": "image",
           "value": "balade-6.jpg"
+        },
+        {
+          "id": "tarifs_eyebrow",
+          "label": "Tarifs — Petit texte",
+          "type": "text",
+          "value": "Nos formules"
+        },
+        {
+          "id": "tarifs_title",
+          "label": "Tarifs — Titre",
+          "type": "text",
+          "value": "Tarifs Balades"
+        },
+        {
+          "id": "carte1_title",
+          "label": "Carte cheval — Titre",
+          "type": "text",
+          "value": "🐴 Balade à cheval"
+        },
+        {
+          "id": "carte1_text",
+          "label": "Carte cheval — Texte",
+          "type": "text",
+          "value": "Petit groupe de niveau, max 4 personnes, à partir de 10 ans."
+        },
+        {
+          "id": "carte2_title",
+          "label": "Carte calèche — Titre",
+          "type": "text",
+          "value": "🛞 Balade en calèche"
+        },
+        {
+          "id": "carte2_text",
+          "label": "Carte calèche — Texte",
+          "type": "text",
+          "value": "Pour petits et grands — durée 1h30, calèche de 5 places assises."
+        },
+        {
+          "id": "carte2_note",
+          "label": "Carte calèche — Note",
+          "type": "text",
+          "value": "En été, les départs se font en fin de journée (à partir de 17h30)."
+        },
+        {
+          "id": "carte3_title",
+          "label": "Carte réservation — Titre",
+          "type": "text",
+          "value": "📅 Réservation"
+        },
+        {
+          "id": "carte3_text",
+          "label": "Carte réservation — Texte",
+          "type": "text",
+          "value": "Réservation obligatoire 48h avant."
+        },
+        {
+          "id": "carte3_note",
+          "label": "Carte réservation — Note",
+          "type": "text",
+          "value": "Paiement par chèques, espèces, cartes bancaires."
+        },
+        {
+          "id": "carte3_btn",
+          "label": "Carte réservation — Bouton",
+          "type": "text",
+          "value": "Réserver"
+        },
+        {
+          "id": "galerie_title",
+          "label": "Galerie — Titre",
+          "type": "text",
+          "value": "En images"
         },
         {
           "id": "photos",
@@ -190,6 +431,18 @@
             "balade-6.jpg",
             "balade-2.jpg"
           ]
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Envie de partir en balade ?"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Réservation obligatoire 48h avant — sur réservation uniquement."
         }
       ]
     },
@@ -197,6 +450,12 @@
       "id": "enseignement",
       "label": "Page Enseignement",
       "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Enseignement & travail du cheval"
+        },
         {
           "id": "title",
           "label": "Titre de la page",
@@ -210,26 +469,32 @@
           "value": "De l'équitation de loisir au perfectionnement en compétition."
         },
         {
+          "id": "intro_eyebrow",
+          "label": "Intro — Petit texte",
+          "type": "text",
+          "value": "Dès 13 ans"
+        },
+        {
           "id": "intro_title",
-          "label": "Titre intro",
+          "label": "Intro — Titre",
           "type": "text",
           "value": "Un enseignement sur mesure"
         },
         {
           "id": "intro_text",
-          "label": "Texte intro 1",
+          "label": "Intro — Paragraphe 1",
           "type": "text",
           "value": "Les cours d'équitation sont proposés aux cavaliers, débutants ou confirmés à partir de 13 ans. Un enseignement collectif ou individuel adapté à leur niveau leur permettant de progresser et se faire plaisir en carrière comme en extérieur."
         },
         {
           "id": "intro_text2",
-          "label": "Texte intro 2",
+          "label": "Intro — Paragraphe 2",
           "type": "text",
           "value": "Dans une ambiance conviviale et chaleureuse, les cavaliers pourront découvrir ou perfectionner leur équitation et s'ils le souhaitent passer leurs examens fédéraux (Galop 1 au Galop 7) avec une cavalerie adaptée à chacun."
         },
         {
           "id": "intro_text3",
-          "label": "Texte intro 3",
+          "label": "Intro — Paragraphe 3",
           "type": "text",
           "value": "Pour les cavaliers en quête de sensations fortes et d'objectifs sportifs, des compétitions sont proposées tout au long de l'année."
         },
@@ -238,6 +503,110 @@
           "label": "Photo principale",
           "type": "image",
           "value": "enseignement-4.jpg"
+        },
+        {
+          "id": "carte1_title",
+          "label": "Carte activités — Titre",
+          "type": "text",
+          "value": "🎯 Les activités"
+        },
+        {
+          "id": "carte1_liste",
+          "label": "Carte activités — Liste",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Cours particuliers",
+              "valeur": ""
+            },
+            {
+              "label": "Cours en duo",
+              "valeur": ""
+            },
+            {
+              "label": "Séances en petits groupes (max 4 cavaliers)",
+              "valeur": ""
+            },
+            {
+              "label": "Travail à pied",
+              "valeur": ""
+            },
+            {
+              "label": "Passage des galops fédéraux",
+              "valeur": ""
+            },
+            {
+              "label": "Coaching en compétition (TREC, CCE, Dressage)",
+              "valeur": ""
+            }
+          ]
+        },
+        {
+          "id": "carte2_title",
+          "label": "Carte formules — Titre",
+          "type": "text",
+          "value": "💡 Formules à la carte"
+        },
+        {
+          "id": "carte2_text",
+          "label": "Carte formules — Paragraphe 1",
+          "type": "text",
+          "value": "Vous souhaitez monter à cheval mais votre planning ne vous permet pas d'être régulier ? Nous vous proposons différentes formules à la carte."
+        },
+        {
+          "id": "carte2_text2",
+          "label": "Carte formules — Paragraphe 2",
+          "type": "text",
+          "value": "Envie de pratiquer l'équitation d'extérieur tout en progressant ? Nous vous proposons différentes formules."
+        },
+        {
+          "id": "carte3_title",
+          "label": "Carte domicile — Titre",
+          "type": "text",
+          "value": "🏠 Chez vous ou en structure"
+        },
+        {
+          "id": "carte3_text",
+          "label": "Carte domicile — Texte",
+          "type": "text",
+          "value": "Vous êtes propriétaire ? Vous souhaitez progresser ?"
+        },
+        {
+          "id": "carte3_liste",
+          "label": "Carte domicile — Liste",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Cours particuliers",
+              "valeur": ""
+            },
+            {
+              "label": "Parcours personnalisé de travail de votre cheval à domicile ou en structure",
+              "valeur": ""
+            },
+            {
+              "label": "Préparation aux concours",
+              "valeur": ""
+            }
+          ]
+        },
+        {
+          "id": "tarifs_eyebrow",
+          "label": "Tarifs — Petit texte",
+          "type": "text",
+          "value": "Saison 2026-2027"
+        },
+        {
+          "id": "tarifs_title",
+          "label": "Tarifs — Titre",
+          "type": "text",
+          "value": "Tarifs"
+        },
+        {
+          "id": "galerie_title",
+          "label": "Galerie — Titre",
+          "type": "text",
+          "value": "En images"
         },
         {
           "id": "photos",
@@ -250,6 +619,18 @@
             "enseignement-4.jpg",
             "enseignement-5.jpg"
           ]
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Envie de progresser à cheval ?"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Contactez-nous pour connaître nos formules et disponibilités."
         }
       ]
     },
@@ -257,6 +638,12 @@
       "id": "marechalerie",
       "label": "Page Maréchalerie",
       "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Maréchal-Ferrant"
+        },
         {
           "id": "title",
           "label": "Titre de la page",
@@ -270,46 +657,82 @@
           "value": "Ferrage et parage de tous équidés, dans le respect et pour leur bien-être."
         },
         {
+          "id": "intro_eyebrow",
+          "label": "Intro — Petit texte",
+          "type": "text",
+          "value": "Particuliers & professionnels"
+        },
+        {
           "id": "intro_title",
-          "label": "Titre intro",
+          "label": "Intro — Titre",
           "type": "text",
           "value": "Un savoir-faire artisanal"
         },
         {
           "id": "intro_text",
-          "label": "Texte intro 1",
+          "label": "Intro — Paragraphe 1",
           "type": "text",
           "value": "Que vous soyez propriétaire particulier ou professionnel, nous intervenons auprès de tous les équidés (poneys, ânes et chevaux) en ferrage comme en parage, afin de contribuer à leur bien-être dans le respect."
         },
         {
           "id": "intro_text2",
-          "label": "Texte intro 2",
+          "label": "Intro — Paragraphe 2",
           "type": "text",
           "value": "Chaque intervention est adaptée à la morphologie et à l'activité de votre équidé, avec une attention particulière portée à la santé de ses pieds."
-        },
-        {
-          "id": "ferrage_text",
-          "label": "Carte Ferrage — Texte",
-          "type": "text",
-          "value": "Ferrage adapté à chaque équidé selon son activité : loisir, compétition, attelage. Travail à chaud pour un ajustage précis."
-        },
-        {
-          "id": "parage_text",
-          "label": "Carte Parage — Texte",
-          "type": "text",
-          "value": "Parage d'entretien pour les équidés pieds nus. Suivi régulier pour préserver l'équilibre et la santé du pied."
-        },
-        {
-          "id": "secteur_text",
-          "label": "Secteur d'intervention",
-          "type": "text",
-          "value": "Gard / Hérault / Sud Lozère / Sud Aveyron"
         },
         {
           "id": "photo",
           "label": "Photo principale",
           "type": "image",
           "value": "marechalerie-2.jpg"
+        },
+        {
+          "id": "carte1_title",
+          "label": "Carte ferrage — Titre",
+          "type": "text",
+          "value": "🔨 Ferrage"
+        },
+        {
+          "id": "carte1_text",
+          "label": "Carte ferrage — Texte",
+          "type": "text",
+          "value": "Ferrage adapté à chaque équidé selon son activité : loisir, compétition, attelage. Travail à chaud pour un ajustage précis."
+        },
+        {
+          "id": "carte2_title",
+          "label": "Carte parage — Titre",
+          "type": "text",
+          "value": "✂️ Parage"
+        },
+        {
+          "id": "carte2_text",
+          "label": "Carte parage — Texte",
+          "type": "text",
+          "value": "Parage d'entretien pour les équidés pieds nus. Suivi régulier pour préserver l'équilibre et la santé du pied."
+        },
+        {
+          "id": "carte3_title",
+          "label": "Carte secteur — Titre",
+          "type": "text",
+          "value": "📍 Secteur d'intervention"
+        },
+        {
+          "id": "carte3_text",
+          "label": "Carte secteur — Texte",
+          "type": "text",
+          "value": "Gard / Hérault / Sud Lozère / Sud Aveyron"
+        },
+        {
+          "id": "carte3_note",
+          "label": "Carte secteur — Note",
+          "type": "text",
+          "value": "Intervention à domicile ou en structure. Contactez-nous pour un devis personnalisé."
+        },
+        {
+          "id": "galerie_title",
+          "label": "Galerie — Titre",
+          "type": "text",
+          "value": "En images"
         },
         {
           "id": "photos",
@@ -319,6 +742,160 @@
             "marechalerie-1.jpg",
             "marechalerie-2.jpg"
           ]
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Besoin d'un maréchal-ferrant ?"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Contactez-nous pour prendre rendez-vous ou obtenir un devis."
+        }
+      ]
+    },
+    {
+      "id": "tarifs",
+      "label": "Tarifs (tout le site)",
+      "fields": [
+        {
+          "id": "balades_cheval",
+          "label": "Balades à cheval",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Balade initiation (1h30)",
+              "valeur": "50€"
+            },
+            {
+              "label": "Demi-journée (2h à cheval)",
+              "valeur": "60€"
+            },
+            {
+              "label": "Journée Cirque de Navacelles",
+              "valeur": "110€"
+            },
+            {
+              "label": "Évasion nocturne (2h, départ au coucher du soleil)",
+              "valeur": "75€"
+            }
+          ]
+        },
+        {
+          "id": "balades_cheval_note",
+          "label": "Balades à cheval — Note",
+          "type": "text",
+          "value": "Petit groupe de niveau max 4 personnes, à partir de 10 ans."
+        },
+        {
+          "id": "caleche",
+          "label": "Balades en calèche",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Balade adulte",
+              "valeur": "30€"
+            },
+            {
+              "label": "Balade enfant +4 ans",
+              "valeur": "25€"
+            },
+            {
+              "label": "Animations, mariages, événements",
+              "valeur": "Sur devis"
+            }
+          ]
+        },
+        {
+          "id": "caleche_note",
+          "label": "Calèche — Note",
+          "type": "text",
+          "value": "Balade 1h30, capacité dans la calèche de 5 places assises. En été les départs se font en fin de journée (à partir de 17h30)."
+        },
+        {
+          "id": "cotisations",
+          "label": "Cotisations & licences",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Cotisation annuelle",
+              "valeur": "60€"
+            },
+            {
+              "label": "Licence fédérale",
+              "valeur": "40€"
+            },
+            {
+              "label": "Licence amateur",
+              "valeur": "80€"
+            }
+          ]
+        },
+        {
+          "id": "cours_collectifs",
+          "label": "Cours collectifs",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Cours collectif 1h (dès 3 cavaliers)",
+              "valeur": "20€"
+            },
+            {
+              "label": "Carte 5h (valable 2 mois)",
+              "valeur": "100€"
+            },
+            {
+              "label": "Carte 10h (valable 3 mois)",
+              "valeur": "200€"
+            },
+            {
+              "label": "Cours duo (30€/personne)",
+              "valeur": "60€"
+            }
+          ]
+        },
+        {
+          "id": "cours_particuliers",
+          "label": "Cours particuliers",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Cours particulier 1h",
+              "valeur": "40€"
+            },
+            {
+              "label": "Carte 5h",
+              "valeur": "175€"
+            },
+            {
+              "label": "Carte 10h",
+              "valeur": "300€"
+            }
+          ]
+        },
+        {
+          "id": "concours",
+          "label": "Concours",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Coaching",
+              "valeur": "35€"
+            },
+            {
+              "label": "Prise en charge du cheval",
+              "valeur": "0,60€/km"
+            }
+          ]
+        },
+        {
+          "id": "concours_note",
+          "label": "Concours — Note",
+          "type": "text",
+          "value": "Transport aller/retour, préparation fourrage, nettoyage du camion."
         }
       ]
     },
@@ -326,6 +903,12 @@
       "id": "infos",
       "label": "Page Infos & Tarifs",
       "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Informations pratiques"
+        },
         {
           "id": "title",
           "label": "Titre de la page",
@@ -337,6 +920,18 @@
           "label": "Sous-titre",
           "type": "text",
           "value": "Toutes les informations, tarifs et le planning de la saison."
+        },
+        {
+          "id": "planning_eyebrow",
+          "label": "Planning — Petit texte",
+          "type": "text",
+          "value": "Le planning"
+        },
+        {
+          "id": "planning_title",
+          "label": "Planning — Titre",
+          "type": "text",
+          "value": "Actualités de la saison"
         },
         {
           "id": "planning1_title",
@@ -373,6 +968,73 @@
           "label": "Planning 3 — Texte",
           "type": "text",
           "value": "Les balades à cheval et en calèche sont proposées d'avril à octobre, sur réservation uniquement, 48h à l'avance."
+        },
+        {
+          "id": "tarifs_eyebrow",
+          "label": "Tarifs — Petit texte",
+          "type": "text",
+          "value": "Saison 2026-2027"
+        },
+        {
+          "id": "tarifs_title",
+          "label": "Tarifs — Titre",
+          "type": "text",
+          "value": "Nos Tarifs"
+        },
+        {
+          "id": "bloc1_title",
+          "label": "Bloc 1 — Titre",
+          "type": "text",
+          "value": "Cotisations annuelles & licences fédérales"
+        },
+        {
+          "id": "bloc2_title",
+          "label": "Bloc 2 — Titre",
+          "type": "text",
+          "value": "Cours d'équitation"
+        },
+        {
+          "id": "bloc3_title",
+          "label": "Bloc 3 — Titre",
+          "type": "text",
+          "value": "Balades 2026"
+        },
+        {
+          "id": "pratique_title",
+          "label": "Infos pratiques — Titre",
+          "type": "text",
+          "value": "Informations pratiques"
+        },
+        {
+          "id": "pratique_liste",
+          "label": "Infos pratiques — Liste",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Réservation obligatoire 48h avant pour toutes les balades",
+              "valeur": ""
+            },
+            {
+              "label": "Équipement obligatoire : pantalon long, chaussures fermées",
+              "valeur": ""
+            },
+            {
+              "label": "Paiement par chèques, espèces, cartes bancaires",
+              "valeur": ""
+            }
+          ]
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Demandez votre formulaire d'inscription"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Envie de connaître nos formules et d'avoir plus de renseignements ?"
         }
       ]
     },
@@ -380,6 +1042,12 @@
       "id": "apropos",
       "label": "Page À Propos",
       "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Notre histoire"
+        },
         {
           "id": "title",
           "label": "Titre de la page",
@@ -393,8 +1061,14 @@
           "value": "Une passion, un métier, des valeurs."
         },
         {
+          "id": "intro_eyebrow",
+          "label": "Intro — Petit texte",
+          "type": "text",
+          "value": "Julie Silva Carvalho"
+        },
+        {
           "id": "intro_title",
-          "label": "Titre présentation",
+          "label": "Intro — Titre",
           "type": "text",
           "value": "Une passion devenue métier"
         },
@@ -421,6 +1095,41 @@
           "label": "Photo de présentation",
           "type": "image",
           "value": "marechalerie-1.jpg"
+        },
+        {
+          "id": "specialites",
+          "label": "Spécialités (étiquettes)",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Enseignement",
+              "valeur": ""
+            },
+            {
+              "label": "Tourisme équestre",
+              "valeur": ""
+            },
+            {
+              "label": "Attelage",
+              "valeur": ""
+            },
+            {
+              "label": "Maréchalerie",
+              "valeur": ""
+            }
+          ]
+        },
+        {
+          "id": "valeurs_eyebrow",
+          "label": "Valeurs — Petit texte",
+          "type": "text",
+          "value": "Nos valeurs"
+        },
+        {
+          "id": "valeurs_title",
+          "label": "Valeurs — Titre",
+          "type": "text",
+          "value": "Ce qui nous anime"
         },
         {
           "id": "valeur1_title",
@@ -457,6 +1166,96 @@
           "label": "Valeur 3 — Texte",
           "type": "text",
           "value": "Une passion transmise chaque jour, à travers l'enseignement, les balades et le soin apporté aux équidés."
+        },
+        {
+          "id": "cta_title",
+          "label": "Bandeau contact — Titre",
+          "type": "text",
+          "value": "Rejoignez-nous !"
+        },
+        {
+          "id": "cta_subtitle",
+          "label": "Bandeau contact — Texte",
+          "type": "text",
+          "value": "Envie de connaître nos formules et d'avoir plus de renseignements ?"
+        }
+      ]
+    },
+    {
+      "id": "page_contact",
+      "label": "Page Contact",
+      "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Nous joindre"
+        },
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Contact"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Une question, une réservation ? Nous sommes à votre écoute."
+        },
+        {
+          "id": "infos_eyebrow",
+          "label": "Coordonnées — Petit texte",
+          "type": "text",
+          "value": "Coordonnées"
+        },
+        {
+          "id": "infos_title",
+          "label": "Coordonnées — Titre",
+          "type": "text",
+          "value": "Parlons de votre projet"
+        },
+        {
+          "id": "liens_title",
+          "label": "Liens — Titre",
+          "type": "text",
+          "value": "Contactez-nous directement"
+        },
+        {
+          "id": "liens_text",
+          "label": "Liens — Texte",
+          "type": "text",
+          "value": "Choisissez le moyen qui vous convient le mieux — nous vous répondrons rapidement."
+        },
+        {
+          "id": "wa_titre",
+          "label": "WhatsApp — Intitulé",
+          "type": "text",
+          "value": "WhatsApp"
+        },
+        {
+          "id": "wa_soustitre",
+          "label": "WhatsApp — Sous-titre",
+          "type": "text",
+          "value": "Réponse rapide par message"
+        },
+        {
+          "id": "tel_titre",
+          "label": "Téléphone — Intitulé",
+          "type": "text",
+          "value": "Appeler"
+        },
+        {
+          "id": "mail_titre",
+          "label": "Email — Intitulé",
+          "type": "text",
+          "value": "Email"
+        },
+        {
+          "id": "wa_message",
+          "label": "Message WhatsApp pré-rempli",
+          "type": "text",
+          "value": "Bonjour, je vous contacte depuis votre site."
         }
       ]
     },
@@ -487,6 +1286,24 @@
           "label": "Secteur maréchalerie",
           "type": "text",
           "value": "Gard / Hérault / Sud Lozère / Sud Aveyron"
+        },
+        {
+          "id": "footer_nom",
+          "label": "Pied de page — Nom",
+          "type": "text",
+          "value": "Du Pied à l'Étrier"
+        },
+        {
+          "id": "footer_ligne2",
+          "label": "Pied de page — Ligne 2",
+          "type": "text",
+          "value": "Le Quintanel, 30770 Blandas"
+        },
+        {
+          "id": "footer_ligne3",
+          "label": "Pied de page — Ligne 3",
+          "type": "text",
+          "value": "Julie Silva Carvalho"
         }
       ]
     },
@@ -498,7 +1315,7 @@
           "id": "facebook",
           "label": "Lien Facebook",
           "type": "text",
-          "value": "https://www.facebook.com/profile.php?id=100057482198207"
+          "value": "#"
         },
         {
           "id": "instagram",

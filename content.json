@@ -186,6 +186,12 @@
       "label": "Page Activités",
       "fields": [
         {
+          "id": "subtitle_eyebrow",
+          "label": "Petit texte au-dessus du titre",
+          "type": "text",
+          "value": "Du Pied à l'Étrier"
+        },
+        {
           "id": "title",
           "label": "Titre de la page",
           "type": "text",

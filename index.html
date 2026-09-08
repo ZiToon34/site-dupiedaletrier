@@ -36,8 +36,8 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="preload" as="image" href="images/hero-poster-mobile.jpg" media="(max-width: 768px)" fetchpriority="high">
-    <link rel="preload" as="image" href="images/hero-poster.jpg" media="(min-width: 769px)" fetchpriority="high">
+    <link rel="preload" as="image" type="image/jpeg" href="images/hero-poster-mobile.jpg" media="(max-width: 768px)" fetchpriority="high">
+    <link rel="preload" as="image" type="image/jpeg" href="images/hero-poster.jpg" media="(min-width: 769px)" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&amp;family=Lato:wght@400;700&amp;display=swap">
@@ -291,7 +291,10 @@
 <!-- HERO -->
 <section class="hero">
     <div class="hero-bg" id="hero-photo-bg" data-cms-bg="hero.photo"></div>
-<video class="hero-bg" id="hero-video" muted playsinline preload="none" data-src="images/hero.mp4" aria-hidden="true" tabindex="-1"></video>
+<video class="hero-bg" id="hero-video" muted playsinline preload="none"
+       data-src-mobile="images/hero-mobile.mp4"
+       data-src-desktop="images/hero-desktop.mp4"
+       aria-hidden="true" tabindex="-1"></video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
         <p class="hero-badge" id="hero-badge" data-cms-text="hero.badge">Causse de Blandas — Cirque de Navacelles, Gard</p>
@@ -479,11 +482,26 @@ const heroVideo = document.getElementById('hero-video')
 if (heroVideo) {
     heroVideo.addEventListener('ended', () => heroVideo.classList.add('fade-out'))
 
+    // Si la video ne peut pas etre lue, on revient a la photo de fond
+    heroVideo.addEventListener('error', () => heroVideo.classList.add('fade-out'))
+
+    /**
+     * Choisit la video selon la largeur d'ecran.
+     * Le seuil 768 px est le meme que celui du CSS et du prechargement des photos.
+     *  - mobile   : hero-mobile.mp4,  portrait 540x960  (~1,0 Mo)
+     *  - ordinateur : hero-desktop.mp4, paysage 720x404 (~1,0 Mo)
+     */
+    const sourceVideo = () => window.matchMedia('(max-width: 768px)').matches
+        ? heroVideo.dataset.srcMobile
+        : heroVideo.dataset.srcDesktop
+
     const startVideo = () => {
         const c = navigator.connection || {}
         const slow = c.saveData === true || ['slow-2g', '2g', '3g'].includes(c.effectiveType)
         if (slow) return                    // connexion lente : on garde la photo
-        heroVideo.src = heroVideo.dataset.src
+        const src = sourceVideo()
+        if (!src) return                    // aucune source disponible : on garde la photo
+        heroVideo.src = src
         const p = heroVideo.play()
         if (p) p.catch(() => heroVideo.classList.add('fade-out'))
     }

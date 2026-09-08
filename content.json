@@ -8,19 +8,19 @@
           "id": "badge",
           "label": "Petit texte au-dessus du titre",
           "type": "text",
-          "value": "Causse de Blandas — Gard"
+          "value": "Causse de Blandas — Cirque de Navacelles, Gard"
         },
         {
           "id": "title",
           "label": "Titre principal",
           "type": "text",
-          "value": "Une aventure équestre au cœur de la nature"
+          "value": "Balades à cheval<br><em>au cœur des Cévennes</em>"
         },
         {
           "id": "subtitle",
           "label": "Sous-titre",
           "type": "text",
-          "value": "Balades à cheval et en calèche, enseignement et maréchalerie sur les paysages du Cirque de Navacelles."
+          "value": "Randonnées à cheval et en calèche, cours d'équitation et maréchalerie sur le Causse de Blandas, entre le Cirque de Navacelles et Le Vigan."
         },
         {
           "id": "btn1",
@@ -56,13 +56,13 @@
           "id": "intro_title",
           "label": "Titre bienvenue",
           "type": "text",
-          "value": "Une passion transmise, un accueil chaleureux"
+          "value": "Une passion transmise,<br>au cœur des Cévennes"
         },
         {
           "id": "intro_text",
           "label": "Texte bienvenue",
           "type": "text",
-          "value": "Au départ du Quintanel, nous vous proposons une immersion au cœur de la nature du Causse de Blandas et du Cirque de Navacelles — Patrimoine mondial de l'UNESCO. Nos balades sont adaptées à tous, familles, amis, amoureux de la nature."
+          "value": "Au départ du Quintanel, sur le Causse de Blandas, nous vous proposons une immersion au cœur des Cévennes, entre les Gorges de la Vis, le Cirque de Navacelles et les dolmens du causse — un paysage classé au Patrimoine mondial de l'UNESCO. Nos randonnées équestres sont adaptées à tous : familles, amis, cavaliers débutants ou confirmés."
         },
         {
           "id": "intro_btn",
@@ -92,7 +92,7 @@
           "id": "cartes_title",
           "label": "Titre des activités",
           "type": "text",
-          "value": "Ce que nous proposons"
+          "value": "Nos activités équestres en Cévennes"
         },
         {
           "id": "carte1_title",
@@ -104,7 +104,7 @@
           "id": "carte1_text",
           "label": "Carte 1 — Texte",
           "type": "text",
-          "value": "Découvrez le Causse et le Cirque de Navacelles. Pour tous niveaux, dès 10 ans."
+          "value": "Randonnée à cheval ou promenade en calèche dans les Cévennes et au Cirque de Navacelles. Tous niveaux, dès 10 ans."
         },
         {
           "id": "carte1_photo",
@@ -122,7 +122,7 @@
           "id": "carte2_text",
           "label": "Carte 2 — Texte",
           "type": "text",
-          "value": "Cours particuliers, duo ou groupe. Galops fédéraux et coaching en compétition."
+          "value": "Cours d'équitation particuliers, en duo ou en petit groupe près du Vigan. Galops 1 à 7 et coaching en concours."
         },
         {
           "id": "carte2_photo",
@@ -140,7 +140,7 @@
           "id": "carte3_text",
           "label": "Carte 3 — Texte",
           "type": "text",
-          "value": "Ferrage professionnel de tous équidés chez les particuliers et en structure."
+          "value": "Maréchal-ferrant dans le Gard et l'Hérault : ferrage à chaud et parage de tous équidés, à domicile."
         },
         {
           "id": "carte3_photo",
@@ -171,7 +171,7 @@
           "id": "cta_subtitle",
           "label": "Bandeau contact — Texte",
           "type": "text",
-          "value": "Réservation obligatoire 48h avant. Contactez-nous pour plus d'informations."
+          "value": "Réservation obligatoire 48 h à l'avance. Balades au départ de Blandas, maréchalerie dans le Gard, l'Hérault et les Cévennes."
         },
         {
           "id": "cta_btn",

@@ -178,6 +178,24 @@
           "label": "Bandeau contact — Bouton",
           "type": "text",
           "value": "Nous contacter"
+        },
+        {
+          "id": "carte4_title",
+          "label": "Carte 4 — Titre",
+          "type": "text",
+          "value": "Prestation en calèche"
+        },
+        {
+          "id": "carte4_text",
+          "label": "Carte 4 — Texte",
+          "type": "text",
+          "value": "Mariage, marché, animation de village : la calèche se loue pour vos événements dans les Cévennes. Sur devis."
+        },
+        {
+          "id": "carte4_photo",
+          "label": "Carte 4 — Photo",
+          "type": "image",
+          "value": "balade-1.jpg"
         }
       ]
     },
@@ -292,6 +310,30 @@
           "label": "Bandeau contact — Texte",
           "type": "text",
           "value": "Contactez-nous, nous serons ravis de vous renseigner."
+        },
+        {
+          "id": "caleche_eyebrow",
+          "label": "Calèche — Petit texte",
+          "type": "text",
+          "value": "Location de calèche"
+        },
+        {
+          "id": "caleche_title",
+          "label": "Calèche — Titre",
+          "type": "text",
+          "value": "Prestation en calèche"
+        },
+        {
+          "id": "caleche_text",
+          "label": "Calèche — Texte",
+          "type": "text",
+          "value": "Pour un mariage, un marché de terroir ou une animation de village, la calèche et son attelage se déplacent dans le Gard, l'Hérault et les Cévennes. Jusqu'à 5 personnes assises, sur devis gratuit."
+        },
+        {
+          "id": "caleche_photo",
+          "label": "Calèche — Photo",
+          "type": "image",
+          "value": "balade-1.jpg"
         }
       ]
     },
@@ -808,10 +850,6 @@
             {
               "label": "Balade enfant +4 ans",
               "valeur": "25€"
-            },
-            {
-              "label": "Animations, mariages, événements",
-              "valeur": "Sur devis"
             }
           ]
         },
@@ -902,6 +940,35 @@
           "label": "Concours — Note",
           "type": "text",
           "value": "Transport aller/retour, préparation fourrage, nettoyage du camion."
+        },
+        {
+          "id": "prestations_caleche",
+          "label": "Prestations en calèche",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Mariage — transport des mariés et du cortège",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Marché de terroir, foire, animation de village",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Anniversaire, baptême, événement privé",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Animation entreprise ou collectivité",
+              "valeur": "Sur devis"
+            }
+          ]
+        },
+        {
+          "id": "prestations_caleche_note",
+          "label": "Prestations en calèche — Note",
+          "type": "text",
+          "value": "Calèche de 5 places assises. Déplacement dans le Gard, l'Hérault et les Cévennes ; autres secteurs sur demande."
         }
       ]
     },
@@ -1328,6 +1395,77 @@
           "label": "Lien Instagram",
           "type": "text",
           "value": "https://www.instagram.com/du_pied_a_letrier/"
+        }
+      ]
+    },
+    {
+      "id": "caleche",
+      "label": "Prestation en calèche",
+      "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Sur devis — toute l'année"
+        },
+        {
+          "id": "title",
+          "label": "Titre",
+          "type": "text",
+          "value": "Prestation en calèche : mariage, marché et événement"
+        },
+        {
+          "id": "text",
+          "label": "Texte 1",
+          "type": "text",
+          "value": "Au-delà des balades de découverte, la calèche se loue pour vos occasions particulières. Attelée par une meneuse diplômée, elle accueille jusqu'à 5 personnes assises et se déplace dans le Gard, l'Hérault et les Cévennes."
+        },
+        {
+          "id": "text2",
+          "label": "Texte 2",
+          "type": "text",
+          "value": "Mariage, marché de terroir, animation de village, anniversaire ou événement d'entreprise : chaque prestation est construite avec vous selon la durée, le trajet et le nombre de passagers. Le devis est gratuit et sans engagement."
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image",
+          "value": "balade-1.jpg"
+        },
+        {
+          "id": "prestations",
+          "label": "Liste des prestations",
+          "type": "liste",
+          "value": [
+            {
+              "label": "Mariage — transport des mariés et du cortège",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Marché de terroir, foire, animation de village",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Anniversaire, baptême, événement privé",
+              "valeur": "Sur devis"
+            },
+            {
+              "label": "Animation entreprise ou collectivité",
+              "valeur": "Sur devis"
+            }
+          ]
+        },
+        {
+          "id": "note",
+          "label": "Note sous la liste",
+          "type": "text",
+          "value": "Réservation conseillée plusieurs semaines à l'avance, en particulier de mai à septembre."
+        },
+        {
+          "id": "btn",
+          "label": "Bouton",
+          "type": "text",
+          "value": "Demander un devis"
         }
       ]
     }

@@ -1058,7 +1058,7 @@
           "id": "title",
           "label": "Titre de la page",
           "type": "text",
-          "value": "À Propos"
+          "value": "Qui sommes-nous ?"
         },
         {
           "id": "subtitle",

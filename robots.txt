@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
 
-Disallow: /mentions-legales.html
-Disallow: /confidentialite.html
+# Les pages légales portent déjà <meta name="robots" content="noindex,follow">.
+# Elles ne sont volontairement pas bloquées ici : un Disallow empêcherait
+# Google de les explorer, donc de lire ce noindex, et l'URL nue pourrait
+# malgré tout finir indexée.
 
 Sitemap: https://dupiedaletrier.fr/sitemap.xml

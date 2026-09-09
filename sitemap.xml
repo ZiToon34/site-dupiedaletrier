@@ -1,50 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://dupiedaletrier.fr/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-6.jpg</image:loc>
+      <image:title>Randonnée à cheval sur le Causse de Blandas, dans les Cévennes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-2.jpg</image:loc>
+      <image:title>Balade à cheval au Cirque de Navacelles, près du Vigan</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-1.jpg</image:loc>
+      <image:title>Cours d'équitation en carrière au Quintanel, à Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-1.jpg</image:loc>
+      <image:title>Maréchal-ferrant ferrant un cheval à chaud dans le Gard</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-1.jpg</image:loc>
+      <image:title>Calèche attelée pour un mariage dans les Cévennes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-3.jpg</image:loc>
+      <image:title>Randonnée équestre sur le Causse de Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-4.jpg</image:loc>
+      <image:title>Cavalières en balade à cheval dans les Cévennes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-2.jpg</image:loc>
+      <image:title>Cours d'équitation en petit groupe à Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-5.jpg</image:loc>
+      <image:title>Balade à cheval face aux Gorges de la Vis</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-3.jpg</image:loc>
+      <image:title>Séance de travail en carrière au Quintanel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-2.jpg</image:loc>
+      <image:title>Parage des pieds d'un cheval par le maréchal-ferrant</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/activites.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-1.jpg</image:loc>
+      <image:title>Attelage et balade à cheval sur le Causse</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-1.jpg</image:loc>
+      <image:title>Cours d'équitation en carrière au Quintanel</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-1.jpg</image:loc>
+      <image:title>Maréchal-ferrant au travail sur un cheval</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/balade.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-6.jpg</image:loc>
+      <image:title>Balade en calèche sur le Causse de Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-1.jpg</image:loc>
+      <image:title>Calèche attelée pour un mariage dans les Cévennes</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-3.jpg</image:loc>
+      <image:title>Balade à cheval au Cirque de Navacelles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-4.jpg</image:loc>
+      <image:title>Balade à cheval au Cirque de Navacelles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-5.jpg</image:loc>
+      <image:title>Balade à cheval au Cirque de Navacelles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/balade-2.jpg</image:loc>
+      <image:title>Balade à cheval au Cirque de Navacelles</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/enseignement.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-4.jpg</image:loc>
+      <image:title>Séance de cours d'équitation encadrée</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-1.jpg</image:loc>
+      <image:title>Cours d'équitation à Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-2.jpg</image:loc>
+      <image:title>Cours d'équitation à Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-3.jpg</image:loc>
+      <image:title>Cours d'équitation à Blandas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/enseignement-5.jpg</image:loc>
+      <image:title>Cours d'équitation à Blandas</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/marechalerie.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-2.jpg</image:loc>
+      <image:title>Maréchal-ferrant réalisant un parage</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-1.jpg</image:loc>
+      <image:title>Maréchal-ferrant au travail sur un cheval</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/infos.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/apropos.html</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://dupiedaletrier.fr/images/marechalerie-1.jpg</image:loc>
+      <image:title>Julie Silva Carvalho, monitrice et maréchal-ferrant</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://dupiedaletrier.fr/contact.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-09-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>

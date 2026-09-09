@@ -508,7 +508,7 @@
           "id": "title",
           "label": "Titre de la page",
           "type": "text",
-          "value": "Enseignement équestre"
+          "value": "Enseignement équestre en Cévennes"
         },
         {
           "id": "subtitle",
@@ -526,7 +526,7 @@
           "id": "intro_title",
           "label": "Intro — Titre",
           "type": "text",
-          "value": "Un enseignement sur mesure"
+          "value": "Un enseignement sur mesure, au cœur des Cévennes"
         },
         {
           "id": "intro_text",
@@ -696,7 +696,7 @@
           "id": "title",
           "label": "Titre de la page",
           "type": "text",
-          "value": "Maréchalerie"
+          "value": "Maréchal-ferrant en Cévennes"
         },
         {
           "id": "subtitle",
@@ -714,7 +714,7 @@
           "id": "intro_title",
           "label": "Intro — Titre",
           "type": "text",
-          "value": "Un savoir-faire artisanal"
+          "value": "Un savoir-faire artisanal, du Gard aux Cévennes"
         },
         {
           "id": "intro_text",
@@ -986,7 +986,7 @@
           "id": "title",
           "label": "Titre de la page",
           "type": "text",
-          "value": "Infos & Tarifs"
+          "value": "Infos et tarifs 2026"
         },
         {
           "id": "subtitle",
@@ -1268,7 +1268,7 @@
           "id": "title",
           "label": "Titre de la page",
           "type": "text",
-          "value": "Contact"
+          "value": "Contact et réservation"
         },
         {
           "id": "subtitle",

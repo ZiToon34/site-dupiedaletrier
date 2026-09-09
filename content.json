@@ -1468,6 +1468,114 @@
           "value": "Demander un devis"
         }
       ]
+    },
+    {
+      "id": "cavalerie",
+      "label": "Notre cavalerie",
+      "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Nos chevaux"
+        },
+        {
+          "id": "title",
+          "label": "Titre",
+          "type": "text",
+          "value": "Notre cavalerie"
+        },
+        {
+          "id": "text1",
+          "label": "Texte 1",
+          "type": "text",
+          "value": "Nos chevaux sont le cœur de l'activité. Chacun a son caractère, son allure et son domaine de prédilection : certains sont taillés pour la randonnée sur le causse, d'autres pour le travail en carrière ou pour l'attelage."
+        },
+        {
+          "id": "text2",
+          "label": "Texte 2",
+          "type": "text",
+          "value": "Ils vivent au pré une grande partie de l'année. Le parage et la ferrure sont assurés en interne, Julie étant elle-même maréchal-ferrant : leurs pieds sont suivis en continu, ce qui compte beaucoup pour des chevaux qui travaillent sur les terrains caillouteux du Causse de Blandas."
+        },
+        {
+          "id": "text3",
+          "label": "Texte 3",
+          "type": "text",
+          "value": "Le cheval qui vous accompagnera est choisi selon votre niveau, votre morphologie et le type de sortie. C'est ce qui garantit une balade agréable pour vous, et une charge de travail juste pour lui."
+        },
+        {
+          "id": "photo1",
+          "label": "Photo cheval 1",
+          "type": "image",
+          "value": "cheval-1.jpg"
+        },
+        {
+          "id": "nom1",
+          "label": "Nom cheval 1",
+          "type": "text",
+          "value": "Cheval 1"
+        },
+        {
+          "id": "photo2",
+          "label": "Photo cheval 2",
+          "type": "image",
+          "value": "cheval-2.jpg"
+        },
+        {
+          "id": "nom2",
+          "label": "Nom cheval 2",
+          "type": "text",
+          "value": "Cheval 2"
+        },
+        {
+          "id": "photo3",
+          "label": "Photo cheval 3",
+          "type": "image",
+          "value": "cheval-3.jpg"
+        },
+        {
+          "id": "nom3",
+          "label": "Nom cheval 3",
+          "type": "text",
+          "value": "Cheval 3"
+        },
+        {
+          "id": "photo4",
+          "label": "Photo cheval 4",
+          "type": "image",
+          "value": "cheval-4.jpg"
+        },
+        {
+          "id": "nom4",
+          "label": "Nom cheval 4",
+          "type": "text",
+          "value": "Cheval 4"
+        },
+        {
+          "id": "photo5",
+          "label": "Photo cheval 5",
+          "type": "image",
+          "value": "cheval-5.jpg"
+        },
+        {
+          "id": "nom5",
+          "label": "Nom cheval 5",
+          "type": "text",
+          "value": "Cheval 5"
+        },
+        {
+          "id": "photo6",
+          "label": "Photo cheval 6",
+          "type": "image",
+          "value": "cheval-6.jpg"
+        },
+        {
+          "id": "nom6",
+          "label": "Nom cheval 6",
+          "type": "text",
+          "value": "Cheval 6"
+        }
+      ]
     }
   ]
 }

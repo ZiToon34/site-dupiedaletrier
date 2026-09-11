@@ -611,3 +611,117 @@ video.hero-bg.fade-out { opacity: 0; }
         background-image: url('images/hero-poster.jpg');
     }
 }
+
+/* ===========================
+   PAGE ACTUALITÉS
+   Cartes d'événements et tableau de résultats.
+   Les contenus sont clonés par cms.js depuis les <template>.
+=========================== */
+.actus-page { padding: 90px 0; }
+.actus-page > .container > h2 { margin-bottom: 2rem; }
+
+.actus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+}
+
+.actu-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform var(--transition);
+}
+.actu-card:hover { transform: translateY(-4px); }
+
+.actu-photo { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.actu-corps { padding: 20px 22px 24px; }
+
+.actu-date {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--beige);
+    margin-bottom: 8px;
+}
+.actu-titre { font-size: 1.25rem; margin: 0 0 6px; }
+.actu-lieu { color: var(--text-light); font-size: 0.9rem; margin: 0 0 10px; }
+.actu-recit { color: var(--text); font-size: 0.95rem; margin: 0; }
+
+/* Les événements passés sont volontairement en retrait */
+.actu-card-passe { opacity: 0.82; }
+.actu-card-passe .actu-date { color: var(--text-light); }
+
+/* --- Bloc dépliable des événements passés --- */
+.actus-passes { margin-top: 3rem; text-align: center; }
+.actus-bascule::after {
+    content: " ↓";
+    display: inline-block;
+    transition: transform var(--transition);
+}
+.actus-bascule.ouvert::after { transform: rotate(180deg); }
+.actus-passes-bloc { margin-top: 2.5rem; text-align: left; }
+.actus-passes-bloc h2 { margin-bottom: 2rem; }
+
+/* --- Résultats de concours --- */
+.actus-resultats { padding: 90px 0; background: var(--cream); }
+.actus-chapo { color: var(--text-light); max-width: 640px; margin: 0 0 2rem; }
+
+.resultats-liste { display: flex; flex-direction: column; gap: 10px; }
+
+.resultat {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+}
+
+.resultat-discipline {
+    flex-shrink: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--white);
+    background: var(--brown);
+    border-radius: 100px;
+    padding: 6px 13px;
+}
+
+.resultat-corps { flex: 1; min-width: 0; }
+.resultat-epreuve { margin: 0; font-weight: 700; color: var(--text); font-size: 0.97rem; }
+.resultat-cavalier { margin: 2px 0 0; color: var(--text-light); font-size: 0.88rem; }
+
+.resultat-fin { flex-shrink: 0; text-align: right; }
+.resultat-rang {
+    display: block;
+    font-family: var(--font-serif);
+    font-weight: 700;
+    color: var(--brown);
+    font-size: 1.05rem;
+}
+.resultat-date { font-size: 0.78rem; color: var(--text-light); }
+
+/* Message affiché quand un répéteur n'a rien à montrer */
+.repeat-vide {
+    color: var(--text-light);
+    font-style: italic;
+    padding: 28px 0;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .actus-page, .actus-resultats { padding: 60px 0; }
+    /* Sur téléphone, le classement passe sous l'épreuve plutôt qu'à côté */
+    .resultat { flex-wrap: wrap; gap: 10px; }
+    .resultat-corps { flex-basis: 100%; order: 2; }
+    .resultat-fin { order: 3; margin-left: auto; text-align: right; }
+    .resultat-discipline { order: 1; }
+}

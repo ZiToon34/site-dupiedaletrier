@@ -1576,6 +1576,143 @@
           "value": "Cheval 6"
         }
       ]
+    },
+    {
+      "id": "actus",
+      "label": "Actualités",
+      "fields": [
+        {
+          "id": "eyebrow",
+          "label": "Petit texte au-dessus du titre",
+          "type": "text",
+          "value": "Du Pied à l'Étrier"
+        },
+        {
+          "id": "title",
+          "label": "Titre de la page",
+          "type": "text",
+          "value": "Actualités"
+        },
+        {
+          "id": "subtitle",
+          "label": "Sous-titre",
+          "type": "text",
+          "value": "Les prochains rendez-vous de l'écurie et les résultats de nos cavaliers en concours."
+        },
+        {
+          "id": "titre_avenir",
+          "label": "Titre — À venir",
+          "type": "text",
+          "value": "Les prochains rendez-vous"
+        },
+        {
+          "id": "titre_passes",
+          "label": "Titre — Passés",
+          "type": "text",
+          "value": "C'est déjà passé"
+        },
+        {
+          "id": "btn_passes",
+          "label": "Bouton — Voir les passés",
+          "type": "text",
+          "value": "Voir les événements passés"
+        },
+        {
+          "id": "titre_resultats",
+          "label": "Titre — Résultats",
+          "type": "text",
+          "value": "Nos résultats en concours"
+        },
+        {
+          "id": "texte_resultats",
+          "label": "Texte — Résultats",
+          "type": "text",
+          "value": "Attelage, concours complet et TREC : les classements de nos cavaliers et de nos chevaux au fil de la saison."
+        },
+        {
+          "id": "evenements",
+          "label": "Événements",
+          "type": "repeteur",
+          "titre_ligne": "titre",
+          "schema": [
+            {
+              "id": "date",
+              "label": "Date",
+              "type": "date"
+            },
+            {
+              "id": "titre",
+              "label": "Titre de l'événement",
+              "type": "text"
+            },
+            {
+              "id": "lieu",
+              "label": "Lieu",
+              "type": "text"
+            },
+            {
+              "id": "recit",
+              "label": "Description",
+              "type": "textarea"
+            },
+            {
+              "id": "photo",
+              "label": "Photo",
+              "type": "image"
+            },
+            {
+              "id": "actif",
+              "label": "Afficher sur le site",
+              "type": "boolean"
+            }
+          ],
+          "value": []
+        },
+        {
+          "id": "resultats",
+          "label": "Résultats de concours",
+          "type": "repeteur",
+          "titre_ligne": "epreuve",
+          "schema": [
+            {
+              "id": "date",
+              "label": "Date",
+              "type": "date"
+            },
+            {
+              "id": "discipline",
+              "label": "Discipline",
+              "type": "select",
+              "options": [
+                "Attelage",
+                "CCE",
+                "TREC"
+              ]
+            },
+            {
+              "id": "epreuve",
+              "label": "Épreuve et lieu",
+              "type": "text"
+            },
+            {
+              "id": "cavalier",
+              "label": "Cavalier et cheval",
+              "type": "text"
+            },
+            {
+              "id": "classement",
+              "label": "Classement",
+              "type": "text"
+            },
+            {
+              "id": "actif",
+              "label": "Afficher sur le site",
+              "type": "boolean"
+            }
+          ],
+          "value": []
+        }
+      ]
     }
   ]
 }

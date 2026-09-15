@@ -1507,7 +1507,7 @@
           "id": "photo1",
           "label": "Photo cheval 1",
           "type": "image",
-          "value": "cheval-1.jpg"
+          "value": "whatsapp-image-2026-09-11-at-07-43-18-3-1789427390803.jpg"
         },
         {
           "id": "nom1",
@@ -1666,7 +1666,24 @@
               "type": "boolean"
             }
           ],
-          "value": []
+          "value": [
+            {
+              "date": "2026-09-27",
+              "titre": "ghbhbfg",
+              "lieu": "fghgh",
+              "recit": "dfchxgwbxcvxcvxcv",
+              "photo": "",
+              "actif": true
+            },
+            {
+              "date": "2026-09-12",
+              "titre": "vxc ",
+              "lieu": "cvb",
+              "recit": "xcbv",
+              "photo": "",
+              "actif": true
+            }
+          ]
         },
         {
           "id": "resultats",

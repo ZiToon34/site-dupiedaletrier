@@ -1519,7 +1519,7 @@
           "id": "photo2",
           "label": "Photo cheval 2",
           "type": "image",
-          "value": "cheval-1-1789503542009.jpg"
+          "value": "cheval2-1789593320590.jpg"
         },
         {
           "id": "nom2",
@@ -1531,7 +1531,7 @@
           "id": "photo3",
           "label": "Photo cheval 3",
           "type": "image",
-          "value": "whatsapp-image-2026-09-11-at-07-43-18-2-1789503424003.jpg"
+          "value": "cheval3-1789593324754.jpg"
         },
         {
           "id": "nom3",
@@ -1543,7 +1543,7 @@
           "id": "photo4",
           "label": "Photo cheval 4",
           "type": "image",
-          "value": "cheval-4.jpg"
+          "value": "cheval4-1789593329433.jpg"
         },
         {
           "id": "nom4",

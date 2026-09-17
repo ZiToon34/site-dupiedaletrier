@@ -1525,7 +1525,7 @@
           "id": "nom2",
           "label": "Nom cheval 2",
           "type": "text",
-          "value": ""
+          "value": " "
         },
         {
           "id": "photo3",
@@ -1537,7 +1537,7 @@
           "id": "nom3",
           "label": "Nom cheval 3",
           "type": "text",
-          "value": ""
+          "value": " "
         },
         {
           "id": "photo4",
@@ -1549,7 +1549,7 @@
           "id": "nom4",
           "label": "Nom cheval 4",
           "type": "text",
-          "value": ""
+          "value": " "
         },
         {
           "id": "photo5",
@@ -1561,7 +1561,7 @@
           "id": "nom5",
           "label": "Nom cheval 5",
           "type": "text",
-          "value": ""
+          "value": " "
         },
         {
           "id": "photo6",
@@ -1573,7 +1573,7 @@
           "id": "nom6",
           "label": "Nom cheval 6",
           "type": "text",
-          "value": ""
+          "value": " "
         }
       ]
     },

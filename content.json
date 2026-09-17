@@ -1561,7 +1561,7 @@
           "id": "nom5",
           "label": "Nom cheval 5",
           "type": "text",
-          "value": "Cheval 5"
+          "value": ""
         },
         {
           "id": "photo6",
@@ -1573,7 +1573,7 @@
           "id": "nom6",
           "label": "Nom cheval 6",
           "type": "text",
-          "value": "Cheval 6"
+          "value": ""
         }
       ]
     },

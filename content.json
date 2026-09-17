@@ -1549,7 +1549,7 @@
           "id": "nom4",
           "label": "Nom cheval 4",
           "type": "text",
-          "value": "Cheval 4"
+          "value": ""
         },
         {
           "id": "photo5",

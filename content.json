@@ -1525,7 +1525,7 @@
           "id": "nom2",
           "label": "Nom cheval 2",
           "type": "text",
-          "value": "Cheval 2"
+          "value": ""
         },
         {
           "id": "photo3",
@@ -1537,7 +1537,7 @@
           "id": "nom3",
           "label": "Nom cheval 3",
           "type": "text",
-          "value": "Cheval 3"
+          "value": ""
         },
         {
           "id": "photo4",

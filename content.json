@@ -1513,7 +1513,7 @@
           "id": "nom1",
           "label": "Nom cheval 1",
           "type": "text",
-          "value": " Cheval 1"
+          "value": " "
         },
         {
           "id": "photo2",

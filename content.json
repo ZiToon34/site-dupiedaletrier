@@ -1501,7 +1501,7 @@
           "id": "text3",
           "label": "Texte 3",
           "type": "text",
-          "value": "Le cheval qui vous accompagnera est choisi selon votre niveau, votre morphologie et le type de sortie. C'est ce qui garantit une balade agréable pour vous, et une charge de travail juste pour lui."
+          "value": ""
         },
         {
           "id": "photo1",

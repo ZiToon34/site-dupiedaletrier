@@ -762,7 +762,7 @@
           "id": "carte1_text",
           "label": "Carte ferrage — Texte",
           "type": "text",
-          "value": "Ferrage adapté à chaque équidé selon son activité : loisir, compétition, attelage. Travail à chaud pour un ajustage précis."
+          "value": "Ferrage"
         },
         {
           "id": "carte2_title",

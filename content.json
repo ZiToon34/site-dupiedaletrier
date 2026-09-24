@@ -1149,13 +1149,13 @@
           "id": "text1",
           "label": "Paragraphe 1",
           "type": "text",
-          "value": " Je suis Julie Silva Carvalho, cheffe d'entreprise de \"Du pied à l'étrier\"."
+          "value": " Je suis Julie Silva Carvalho, cheffe d'entreprise de \"Du pied à l'étrier\".\n Depuis toujours, le cheval occupe une place essentielle dans ma vie. Dès le plus jeune âge et au fil des années, cette passion s'est transformée en véritable vocation, puis en métier."
         },
         {
           "id": "text2",
           "label": "Paragraphe 2",
           "type": "text",
-          "value": " Depuis toujours, le cheval occupe une place essentielle dans ma vie. Dès le plus jeune âge et au fil des années, cette passion s'est transformée en véritable vocation, puis en métier.\n"
+          "value": "\n"
         },
         {
           "id": "text3",

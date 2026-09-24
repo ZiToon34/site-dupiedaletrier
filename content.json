@@ -1495,13 +1495,13 @@
           "id": "text2",
           "label": "Texte 2",
           "type": "text",
-          "value": "Il nous a charmé par sa polyvalence, avec ses allures généreuses et son tempérament volontaire, il est capable de s'adapter à de nombreuses disciplines:\n  - Les balades ou randonnées\n  - L'enseignement\n  - La compétition (CSO, CCE, TREC ) \n  - L'attelage\n\n\n\nEt à la fois ils se , et à la fois "
+          "value": "Il nous a charmé par sa polyvalence, avec ses allures généreuses et son tempérament volontaire, il est capable de s'adapter à de nombreuses disciplines:\n  - Les balades ou randonnées\n  - L'enseignement\n  - La compétition (CSO, CCE, TREC ) \n  - L'attelage\n"
         },
         {
           "id": "text3",
           "label": "Texte 3",
           "type": "text",
-          "value": ""
+          "value": "Formidable partenaire pour créer "
         },
         {
           "id": "photo1",

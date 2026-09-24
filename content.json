@@ -774,7 +774,7 @@
           "id": "carte2_text",
           "label": "Carte parage — Texte",
           "type": "text",
-          "value": "Parage d'entretien pour les équidés pieds nus au près et au travail."
+          "value": "Parage d'entretien pour les équidés pieds nus : parage de près et parage cheval au  travail."
         },
         {
           "id": "carte3_title",

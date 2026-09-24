@@ -762,7 +762,7 @@
           "id": "carte1_text",
           "label": "Carte ferrage — Texte",
           "type": "text",
-          "value": "Ferrage fer classique\n\nFerrage fer collés\n\nFerrage fer plastique brochés"
+          "value": "Ferrage fer classiques\n\nFerrage fer collés\n\nFerrage fer plastiques brochés"
         },
         {
           "id": "carte2_title",

@@ -732,7 +732,7 @@
           "id": "intro_title",
           "label": "Intro — Titre",
           "type": "text",
-          "value": "Soin aux chevaux"
+          "value": "Soins aux chevaux"
         },
         {
           "id": "intro_text",

@@ -1717,7 +1717,16 @@
               "type": "boolean"
             }
           ],
-          "value": []
+          "value": [
+            {
+              "date": "",
+              "discipline": "",
+              "epreuve": "",
+              "cavalier": "",
+              "classement": "",
+              "actif": true
+            }
+          ]
         }
       ]
     }

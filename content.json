@@ -1685,16 +1685,7 @@
               "type": "boolean"
             }
           ],
-          "value": [
-            {
-              "date": "",
-              "titre": "",
-              "lieu": "",
-              "recit": "",
-              "actif": true,
-              "photos": []
-            }
-          ]
+          "value": []
         },
         {
           "id": "resultats",
@@ -1733,6 +1724,11 @@
               "type": "text"
             },
             {
+              "id": "photos",
+              "type": "image-list",
+              "label": "Photos"
+            },
+            {
               "id": "actif",
               "label": "Afficher sur le site",
               "type": "boolean"
@@ -1745,7 +1741,8 @@
               "epreuve": "Rodez Domaine de Combelles",
               "cavalier": "Julie Silva Carvalho / Darla de Voulpiac",
               "classement": "",
-              "actif": true
+              "actif": true,
+              "photos": []
             }
           ]
         }

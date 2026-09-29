@@ -734,6 +734,27 @@ video.hero-bg.fade-out { opacity: 0; }
 .resultat-epreuve { margin: 0; font-weight: 700; color: var(--text); font-size: 0.97rem; }
 .resultat-cavalier { margin: 2px 0 0; color: var(--text-light); font-size: 0.88rem; }
 
+/* --- Photos d'un résultat : une rangée de vignettes, sans couverture --- */
+.resultat-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+/* La couverture prend ici la taille d'une vignette : une liste reste une liste */
+.resultat-photos .actu-photo,
+.resultat-photos .actu-vignettes img {
+    width: 56px;
+    height: 56px;
+    aspect-ratio: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Les vignettes rejoignent la meme rangee que la premiere photo */
+.resultat-photos .actu-vignettes { display: contents; }
+
 .resultat-fin { flex-shrink: 0; text-align: right; }
 .resultat-rang {
     display: block;

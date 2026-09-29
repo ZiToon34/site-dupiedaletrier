@@ -1,13 +1,16 @@
 /* =========================================================
    Visionneuse photo — Du Pied à l'Étrier
-   Fonctionne sur la galerie de l'accueil et sur les sections
-   "En images" des pages d'activités, y compris pour les photos
+   Fonctionne sur la galerie de l'accueil, sur les sections
+   "En images" des pages d'activités et sur les galeries
+   d'événements de la page Actualités, y compris pour les photos
    ajoutées depuis Mon CMS (délégation d'évènements).
    ========================================================= */
 (function () {
     'use strict'
 
-    var SELECTOR = '.gallery-strip-grid img, .photo-grid img'
+    // Les galeries d'evenements (page Actualites) sont aussi prises en charge
+    var SELECTOR = '.gallery-strip-grid img, .photo-grid img, .actu-galerie img'
+    var GROUPES = '.gallery-strip-grid, .photo-grid, .actu-galerie'
 
     // ---------- Construction de la visionneuse ----------
     var box = document.createElement('div')
@@ -60,7 +63,9 @@
     }
 
     function open(target) {
-        var grid = target.closest('.gallery-strip-grid, .photo-grid')
+        // Chaque evenement forme son propre groupe : les fleches
+        // parcourent ses photos, sans passer a l'evenement suivant
+        var grid = target.closest(GROUPES)
         items = grid ? Array.prototype.slice.call(grid.querySelectorAll('img')) : [target]
         lastFocus = document.activeElement
         show(items.indexOf(target))

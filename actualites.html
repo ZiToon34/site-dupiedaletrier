@@ -81,7 +81,7 @@
              data-cms-repeat-vide="Aucun événement prévu pour le moment. Revenez bientôt.">
             <template data-cms-repeat-modele>
                 <article class="actu-card">
-                    <img class="actu-photo" data-cms-item-img="photo" alt="" loading="lazy" decoding="async">
+                    <div class="actu-galerie" data-cms-item-galerie="photos"></div>
                     <div class="actu-corps">
                         <time class="actu-date" data-cms-item="date" data-cms-item-format="date"></time>
                         <h3 class="actu-titre" data-cms-item="titre"></h3>
@@ -109,7 +109,7 @@
                      data-cms-repeat-vide="Rien à afficher pour l'instant.">
                     <template data-cms-repeat-modele>
                         <article class="actu-card actu-card-passe">
-                            <img class="actu-photo" data-cms-item-img="photo" alt="" loading="lazy" decoding="async">
+                            <div class="actu-galerie" data-cms-item-galerie="photos"></div>
                             <div class="actu-corps">
                                 <time class="actu-date" data-cms-item="date" data-cms-item-format="date"></time>
                                 <h3 class="actu-titre" data-cms-item="titre"></h3>
@@ -228,6 +228,7 @@ if (bouton && bloc) {
     })
 }
 </script>
+<script defer src="lightbox.js"></script>
 <script defer src="cms-bridge.js"></script>
 </body>
 </html>

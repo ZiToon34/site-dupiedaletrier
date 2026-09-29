@@ -638,6 +638,41 @@ video.hero-bg.fade-out { opacity: 0; }
 .actu-card:hover { transform: translateY(-4px); }
 
 .actu-photo { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+
+/* --- Galerie d'un événement : couverture, puis vignettes --- */
+.actu-galerie { cursor: zoom-in; }
+
+.actu-vignettes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    padding: 4px 4px 0;
+}
+
+.actu-vignettes img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+    transition: opacity var(--transition);
+}
+
+.actu-vignettes img:hover { opacity: 0.85; }
+
+/* Au-dela de quatre, les vignettes passent a la ligne suivante */
+@media (max-width: 480px) {
+    .actu-vignettes { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Message affiché quand une liste d'événements est vide */
+.cms-vide {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-light);
+    font-style: italic;
+    padding: 24px 0;
+}
 .actu-corps { padding: 20px 22px 24px; }
 
 .actu-date {

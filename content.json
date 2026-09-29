@@ -56,7 +56,7 @@
           "id": "intro_title",
           "label": "Titre bienvenue",
           "type": "text",
-          "value": "Des activités équestres au cœur des Cévennes"
+          "value": "Des activités équestre au cœur des Cévennes"
         },
         {
           "id": "intro_text",
@@ -1675,9 +1675,9 @@
               "type": "textarea"
             },
             {
-              "id": "photo",
-              "label": "Photo",
-              "type": "image"
+              "id": "photos",
+              "label": "Photos (la première sert de couverture)",
+              "type": "image-list"
             },
             {
               "id": "actif",
@@ -1691,8 +1691,8 @@
               "titre": "",
               "lieu": "",
               "recit": "",
-              "photo": "",
-              "actif": true
+              "actif": true,
+              "photos": []
             }
           ]
         },

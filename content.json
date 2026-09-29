@@ -1691,7 +1691,9 @@
               "titre": "sdfdf",
               "lieu": "sdfsdf",
               "recit": "sdfsdfsd",
-              "photos": [],
+              "photos": [
+                "cheval2-1790719042570.jpg"
+              ],
               "actif": true
             }
           ]

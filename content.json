@@ -1685,16 +1685,7 @@
               "type": "boolean"
             }
           ],
-          "value": [
-            {
-              "date": "",
-              "titre": "",
-              "lieu": "",
-              "recit": "",
-              "photos": "",
-              "actif": true
-            }
-          ]
+          "value": []
         },
         {
           "id": "resultats",

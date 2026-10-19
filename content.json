@@ -1736,6 +1736,15 @@
           ],
           "value": [
             {
+              "date": "",
+              "discipline": "",
+              "epreuve": "",
+              "cavalier": "",
+              "classement": "",
+              "photos": [],
+              "actif": true
+            },
+            {
               "date": "2026-08-21",
               "discipline": "Attelage",
               "epreuve": "Rodez Domaine de Combelles",

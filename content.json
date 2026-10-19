@@ -1736,19 +1736,6 @@
           ],
           "value": [
             {
-              "date": "2026-10-11",
-              "discipline": "CCE",
-              "epreuve": "STAGE CROSS aux écuries de Monplo (12)",
-              "cavalier": "Emma Perrin et Gribouille l'Oublan / Mathilde Silva Carvalho et Jalisac de Voulpiac / Blandine Salles et Darla de Voulpiac",
-              "classement": "Entrainement de cross à l'extérieur dans l'Aveyron pour nos cavalieres afin de préparer aux premieres compétition de la saison",
-              "photos": [
-                "img-6477-1792427057770.jpg",
-                "img-6476-1792427069667.jpg",
-                "img-6478-1792427079753.jpg"
-              ],
-              "actif": true
-            },
-            {
               "date": "2026-10-18",
               "discipline": "CCE",
               "epreuve": "Club Hippique du Gevaudan ",
@@ -1759,6 +1746,19 @@
                 "f2f73b8a-b44b-43ca-8a3c-d5b6ebb2ca0a-1792425917863.jpg",
                 "img-6545-1792426090743.jpg",
                 "img-6546-1792426102488.jpg"
+              ],
+              "actif": true
+            },
+            {
+              "date": "2026-10-11",
+              "discipline": "CCE",
+              "epreuve": "STAGE CROSS aux écuries de Monplo (12)",
+              "cavalier": "Emma Perrin et Gribouille l'Oublan / Mathilde Silva Carvalho et Jalisac de Voulpiac / Blandine Salles et Darla de Voulpiac",
+              "classement": "Entrainement de cross à l'extérieur dans l'Aveyron pour nos cavalieres afin de préparer aux premieres compétition de la saison",
+              "photos": [
+                "img-6477-1792427057770.jpg",
+                "img-6476-1792427069667.jpg",
+                "img-6478-1792427079753.jpg"
               ],
               "actif": true
             },

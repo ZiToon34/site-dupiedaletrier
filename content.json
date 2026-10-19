@@ -1736,15 +1736,6 @@
           ],
           "value": [
             {
-              "date": "",
-              "discipline": "",
-              "epreuve": "",
-              "cavalier": "",
-              "classement": "",
-              "photos": [],
-              "actif": true
-            },
-            {
               "date": "2026-10-18",
               "discipline": "CCE",
               "epreuve": "Club Hippique du Gevaudan ",
